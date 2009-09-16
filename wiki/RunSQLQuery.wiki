@@ -1,0 +1,18 @@
+#summary How do I run SQL queries against the database.
+
+= Introduction =
+
+If you need to write SQL queries directly against the database you will need a Firebird Database IDE. Generally you should not muck around with the database unless you have adequate experience.
+
+
+= Details =
+
+http://sqlmanager.net/en/products/mssql/manager/download
+
+http://sqlmanager.net/en/products/mssql/manager/download/5/769
+
+
+Add your content here.  Format your content with:
+  * Text in *bold* or _italic_
+  * Headings, paragraphs, and lists
+  * Automatic links to other wiki pages
