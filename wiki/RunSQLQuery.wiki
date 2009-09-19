@@ -7,9 +7,9 @@ If you need to write SQL queries directly against the database you will need a F
 
 = Details =
 
-http://sqlmanager.net/en/products/mssql/manager/download
+http://sqlmanager.net/en/products/ibfb/manager/download
 
-http://sqlmanager.net/en/products/mssql/manager/download/5/769
+http://sqlmanager.net/en/products/ibfb/manager/download/5/140
 
 
 Add your content here.  Format your content with:
