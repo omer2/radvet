@@ -7,12 +7,12 @@ If you need to write SQL queries directly against the database you will need a F
 
 = Details =
 
+Download the free Firebird IDE from here to be able to run queries.
+
 http://sqlmanager.net/en/products/ibfb/manager/download
 
 http://sqlmanager.net/en/products/ibfb/manager/download/5/140
 
+Run the EMS SqlManager and follow the following steps to connect to the database.
 
-Add your content here.  Format your content with:
-  * Text in *bold* or _italic_
-  * Headings, paragraphs, and lists
-  * Automatic links to other wiki pages
+# From the Database menu click Register Host
