@@ -11,6 +11,7 @@ The GST amounts are calculated incorrectly for the 12.5% NZ GST rate. This scrip
 
 * Run the following script to add the following two triggers to the database
 
+{{{
 /* Definition for the `VISITSTOCK_GST` trigger :  */
 
 SET TERM ^ ;
@@ -37,5 +38,5 @@ AS
 BEGIN
   NEW.TAX = NEW.AMOUNT - (NEW.AMOUNT / 1.125);
 END^
-
+}}}
 SET TERM ; ^
