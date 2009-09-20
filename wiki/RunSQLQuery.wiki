@@ -13,6 +13,12 @@ http://sqlmanager.net/en/products/ibfb/manager/download
 
 http://sqlmanager.net/en/products/ibfb/manager/download/5/140
 
-Run the EMS SqlManager and follow the following steps to connect to the database.
+Run the EMS Sql Manager and follow the following steps to connect to the database.
 
-# From the Database menu click Register Host
+# From the Database menu click Register Host and use the following settings
+
+Note: password = masterkey
+
+[http://www.jobtree.com.au/public/EMS1.png]
+
+[http://www.jobtree.com.au/public/EMS2.png]
