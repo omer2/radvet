@@ -22,3 +22,5 @@ Note: password = masterkey
 [http://www.jobtree.com.au/public/EMS1.png]
 
 [http://www.jobtree.com.au/public/EMS2.png]
+
+# To run a query, after connection to a database select Tools | Show SQL Editor. Enter SQL in editor window and press Execute.
