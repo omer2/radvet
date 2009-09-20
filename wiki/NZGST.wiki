@@ -2,7 +2,7 @@
 
 = Introduction =
 
-The GST amounts are calculated incorrectly for the 12.5% NZ GST rate. This script when applied to the database will correctly fix up the GST.
+The GST amounts are calculated incorrectly for the 12.5% NZ GST rate. Run this script and when applied to the database will correctly fix up the GST.
 
 
 = Details =
