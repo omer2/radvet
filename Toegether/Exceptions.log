@@ -1,0 +1,1552 @@
+---------------------------16:19:13 06/07/2003---------------------------
+Exception 'EStackOverflow' in module user32.dll at 000036A6
+Stack overflow
+
+Source file: UNKNOWN, Line UNKNOWN
+
+Call stack:
+:77D446A6 [user32.dll]
+
+Registers:
+EAX = 000011B3  CS = 001B  EIP = 77D446A6  Flags = 00010206
+EBX = 03F76830  SS = 0023  ESP = 00033000    EBP = 03F77060
+ECX = 00090000  DS = 0023  ESI = 0051EC88    FS  = 0038
+EDX = 7FFE0300  ES = 0023  EDI = 03F76830    GS  = 0000
+Code at CS:EIP
+FF D2 C2 04 00 8B 44 24 04 C2 08 00 55 8B EC 8B 
+Stack:
+77D49C13 00000000 0046651D 03F76830 004F1E70 
+03F77060 03407104 00000000 00000000 00000000 
+00000000 00000000 00000000 00000000 77D446A6 
+03407105 03BB61F4 03BB600B 77D446A6 000036A6 
+
+
+
+---------------------------15:11:04 07/07/2003---------------------------
+Exception 'EDatabaseError' in module VetPractice.exe at 0013E6D5
+Field 'Desexed' not found
+
+Source file: UNKNOWN, Line UNKNOWN
+
+Call stack:
+:0053F6D5 [VetPractice.exe] Db.DatabaseError
+:0053F73E [VetPractice.exe] Db.DatabaseErrorFmt
+:0054D567 [VetPractice.exe] Db.TDataSet.FieldByName
+:0098C99D [VetPractice.exe] Animalobject.TAnimalObject.GetAnimalDesc (AnimalObject.pas, line 570)
+:00B75FD3 [VetPractice.exe] Frpatientslist.TFraPatientsList.UpdateHeader (FrPatientsList.pas, line 687)
+:00B74EF0 [VetPractice.exe] Frpatientslist.TFraPatientsList.GrdPatientChangeNode (FrPatientsList.pas, line 452)
+:00B74E13 [VetPractice.exe] Frpatientslist.TFraPatientsList.SearchTimerTimer (FrPatientsList.pas, line 410)
+:00D6EA66 [VetPractice.exe] Fmpatients1.TFrmPatients.PatientListFrameSearchTimerTimer (FmPatients1.pas, line 560)
+:0042D5C2 [VetPractice.exe] Classes.StdWndProc
+:77D43A68 [user32.dll]
+:77D43B37 [user32.dll]
+:77D43D91 [user32.dll]
+:77D4438C [user32.dll]
+:00DC6761 [VetPractice.exe] initialization (VetPractice.dpr, line 204)
+:77E814C7 [kernel32.dll]
+
+Registers:
+EAX = 0012FAF4  CS = 001B  EIP = 77E73887  Flags = 00000202
+EBX = 03C5E464  SS = 0023  ESP = 0012FAF0    EBP = 0012FB44
+ECX = 00000000  DS = 0023  ESI = 0012FB78    FS  = 003B
+EDX = 0053F6D5  ES = 0023  EDI = 00000000    GS  = 0000
+Code at CS:EIP
+5E C9 C2 10 00 6A 18 68 28 30 E8 77 E8 40 6A 00 
+Stack:
+042F87FC 0EEDFADE 00000001 00000000 77E73887 
+0012FBA0 0345705C 00000000 00000000 00000000 
+00000000 00000000 00000000 00000000 77E814C7 
+03457005 043061FC 0430550B 04305FD8 0002040B 
+
+
+
+---------------------------15:11:16 07/07/2003---------------------------
+Exception 'EDatabaseError' in module VetPractice.exe at 0013E6D5
+Field 'BALANCE' not found
+
+Source file: UNKNOWN, Line UNKNOWN
+
+Call stack:
+:0053F6D5 [VetPractice.exe] Db.DatabaseError
+:0053F73E [VetPractice.exe] Db.DatabaseErrorFmt
+:0054D567 [VetPractice.exe] Db.TDataSet.FieldByName
+:00A84526 [VetPractice.exe] Patientobject.TPatientObject.Balance (PatientObject.pas, line 160)
+:00B75F05 [VetPractice.exe] Frpatientslist.TFraPatientsList.UpdateHeader (FrPatientsList.pas, line 681)
+:00B74EF0 [VetPractice.exe] Frpatientslist.TFraPatientsList.GrdPatientChangeNode (FrPatientsList.pas, line 452)
+:00569F22 [VetPractice.exe] Dxtl.TCustomdxTreeList.DoChangeNode (dxTL.pas, line 11497)
+:0055F768 [VetPractice.exe] Dxtl.TCustomdxTreeList.MouseDown (dxTL.pas, line 7301)
+:004612EB [VetPractice.exe] Controls.TControl.DoMouseDown
+:00461337 [VetPractice.exe] Controls.TControl.WMLButtonDown
+:004640B4 [VetPractice.exe] Controls.TWinControl.WndProc
+:0042D5C2 [VetPractice.exe] Classes.StdWndProc
+:77D43A68 [user32.dll]
+:77D43B37 [user32.dll]
+:77D43D91 [user32.dll]
+:77D4438C [user32.dll]
+:00DC6761 [VetPractice.exe] initialization (VetPractice.dpr, line 204)
+:77E814C7 [kernel32.dll]
+
+Registers:
+EAX = 0012F8CC  CS = 001B  EIP = 77E73887  Flags = 00000202
+EBX = 034FCF24  SS = 0023  ESP = 0012F8C8    EBP = 0012F91C
+ECX = 00000000  DS = 0023  ESI = 0012F950    FS  = 003B
+EDX = 0053F6D5  ES = 0023  EDI = 00000000    GS  = 0000
+Code at CS:EIP
+5E C9 C2 10 00 6A 18 68 28 30 E8 77 E8 40 6A 00 
+Stack:
+03E3EACC 0EEDFADE 00000001 00000000 77E73887 
+0012F978 0345705C 00000000 00000000 00000000 
+00000000 00000000 00000000 00000000 77E814C7 
+03457005 042F6194 042F540B 042F60C0 0002040B 
+
+
+
+---------------------------15:11:23 07/07/2003---------------------------
+Exception 'EkbmMWServerException' in module VetPractice.exe at 0036B571
+Unable to complete network request to host "127.0.0.1".
+Error writing data to the connection.
+unknown Win32 error 10054 (100000)
+
+Source file: kbmMWClient.pas, Line 501
+
+Call stack:
+:0076C571 [VetPractice.exe] Kbmmwclient.TkbmMWCustomClient.SendRequestEx (kbmMWClient.pas, line 501)
+:0076C6BE [VetPractice.exe] Kbmmwclient.TkbmMWCustomClient.SendRequest (kbmMWClient.pas, line 520)
+:0076C742 [VetPractice.exe] Kbmmwclient.TkbmMWCustomSimpleClient.Request (kbmMWClient.pas, line 527)
+:00770241 [VetPractice.exe] Kbmmwclientdataset.TkbmMWCustomClientCursor.PerformRefreshDefinitions (kbmMWClientDataset.pas, line 998)
+:0076715B [VetPractice.exe] Kbmmwcustomdataset.TkbmMWCustomPooledCursor.InternalInitFieldDefs (kbmMWCustomDataset.pas, line 873)
+:0076F266 [VetPractice.exe] Kbmmwclientdataset.TkbmMWCustomClientCursor.InternalInitFieldDefs (kbmMWClientDataset.pas, line 732)
+:00766161 [VetPractice.exe] Kbmmwcustomconnectionpool.TkbmMWCustomPooledDataset.InternalOpen (kbmMWCustomConnectionPool.pas, line 2234)
+:0075799B [VetPractice.exe] Kbmmemtable.TkbmCustomMemTable.SetActive (kbmMemTable.pas, line 6257)
+:0047B023 [VetPractice.exe] Forms.TCustomForm.DoShow
+:0046107B [VetPractice.exe] Controls.TControl.WndProc
+:004640B4 [VetPractice.exe] Controls.TWinControl.WndProc
+:00460E4B [VetPractice.exe] Controls.TControl.Perform
+:00463C08 [VetPractice.exe] Controls.TWinControl.UpdateShowing
+:00463C73 [VetPractice.exe] Controls.TWinControl.UpdateControlState
+:004640B4 [VetPractice.exe] Controls.TWinControl.WndProc
+:00460E4B [VetPractice.exe] Controls.TControl.Perform
+:0045FB28 [VetPractice.exe] Controls.TControl.SetVisible
+:00BF699F [VetPractice.exe] Fmmain.TFrmMain.LoadItem (FmMain.pas, line 610)
+:00BF688E [VetPractice.exe] Fmmain.TFrmMain.ActAppointmentExecute (FmMain.pas, line 585)
+:00461601 [VetPractice.exe] Controls.TControl.DoMouseUp
+:004640B4 [VetPractice.exe] Controls.TWinControl.WndProc
+:0042D5C2 [VetPractice.exe] Classes.StdWndProc
+:77D43A68 [user32.dll]
+:77D43B37 [user32.dll]
+:77D43D91 [user32.dll]
+:77D4438C [user32.dll]
+:00DC6761 [VetPractice.exe] initialization (VetPractice.dpr, line 204)
+:77E814C7 [kernel32.dll]
+
+Registers:
+EAX = 0012F3BC  CS = 001B  EIP = 77E73887  Flags = 00000202
+EBX = 00774DBC  SS = 0023  ESP = 0012F3B8    EBP = 0012F40C
+ECX = 00000000  DS = 0023  ESI = 0012F440    FS  = 003B
+EDX = 0076C571  ES = 0023  EDI = 0012F69C    GS  = 0000
+Code at CS:EIP
+5E C9 C2 10 00 6A 18 68 28 30 E8 77 E8 40 6A 00 
+Stack:
+0012F668 0EEDFADE 00000001 00000000 77E73887 
+0012F4A4 0345705C 00000000 00000000 00000000 
+00000000 00000000 00000000 00000000 77E814C7 
+03457005 042EB7AC 042F7D0B 03DEBCBC 0002040B 
+
+
+
+---------------------------15:24:19 07/07/2003---------------------------
+Exception 'EDatabaseError' in module VetPractice.exe at 0013E6D5
+Field 'Desexed' not found
+
+Source file: UNKNOWN, Line UNKNOWN
+
+Call stack:
+:0053F6D5 [VetPractice.exe] Db.DatabaseError
+:0053F73E [VetPractice.exe] Db.DatabaseErrorFmt
+:0054D567 [VetPractice.exe] Db.TDataSet.FieldByName
+:0098C99D [VetPractice.exe] Animalobject.TAnimalObject.GetAnimalDesc (AnimalObject.pas, line 570)
+:00B75FD3 [VetPractice.exe] Frpatientslist.TFraPatientsList.UpdateHeader (FrPatientsList.pas, line 687)
+:00B74EF0 [VetPractice.exe] Frpatientslist.TFraPatientsList.GrdPatientChangeNode (FrPatientsList.pas, line 452)
+:00B74E13 [VetPractice.exe] Frpatientslist.TFraPatientsList.SearchTimerTimer (FrPatientsList.pas, line 410)
+:00D6EA66 [VetPractice.exe] Fmpatients1.TFrmPatients.PatientListFrameSearchTimerTimer (FmPatients1.pas, line 560)
+:0042D5C2 [VetPractice.exe] Classes.StdWndProc
+:77D43A68 [user32.dll]
+:77D43B37 [user32.dll]
+:77D43D91 [user32.dll]
+:77D4438C [user32.dll]
+:00DC6761 [VetPractice.exe] initialization (VetPractice.dpr, line 204)
+:77E814C7 [kernel32.dll]
+
+Registers:
+EAX = 0012FAF4  CS = 001B  EIP = 77E73887  Flags = 00000202
+EBX = 03C4E464  SS = 0023  ESP = 0012FAF0    EBP = 0012FB44
+ECX = 00000000  DS = 0023  ESI = 0012FB78    FS  = 0038
+EDX = 0053F6D5  ES = 0023  EDI = 00000000    GS  = 0000
+Code at CS:EIP
+5E C9 C2 10 00 6A 18 68 28 30 E8 77 E8 40 6A 00 
+Stack:
+04313E24 0EEDFADE 00000001 00000000 77E73887 
+0012FBA0 0344705C 00000000 00000000 00000000 
+00000000 00000000 00000000 00000000 77E814C7 
+03447005 0431642C 0431550B 043163AC 0002040B 
+
+
+
+---------------------------15:27:31 07/07/2003---------------------------
+Exception 'EDatabaseError' in module VetPractice.exe at 0013E6D5
+Field 'Desexed' not found
+
+Source file: UNKNOWN, Line UNKNOWN
+
+Call stack:
+:0053F6D5 [VetPractice.exe] Db.DatabaseError
+:0053F73E [VetPractice.exe] Db.DatabaseErrorFmt
+:0054D567 [VetPractice.exe] Db.TDataSet.FieldByName
+:0098C99D [VetPractice.exe] Animalobject.TAnimalObject.GetAnimalDesc (AnimalObject.pas, line 570)
+:00B75FD3 [VetPractice.exe] Frpatientslist.TFraPatientsList.UpdateHeader (FrPatientsList.pas, line 687)
+:00B74EF0 [VetPractice.exe] Frpatientslist.TFraPatientsList.GrdPatientChangeNode (FrPatientsList.pas, line 452)
+:00569F22 [VetPractice.exe] Dxtl.TCustomdxTreeList.DoChangeNode (dxTL.pas, line 11497)
+:0055F768 [VetPractice.exe] Dxtl.TCustomdxTreeList.MouseDown (dxTL.pas, line 7301)
+:004612EB [VetPractice.exe] Controls.TControl.DoMouseDown
+:00461337 [VetPractice.exe] Controls.TControl.WMLButtonDown
+:004640B4 [VetPractice.exe] Controls.TWinControl.WndProc
+:0042D5C2 [VetPractice.exe] Classes.StdWndProc
+:77D43A68 [user32.dll]
+:77D43B37 [user32.dll]
+:77D43D91 [user32.dll]
+:77D4438C [user32.dll]
+:00DC6761 [VetPractice.exe] initialization (VetPractice.dpr, line 204)
+:77E814C7 [kernel32.dll]
+
+Registers:
+EAX = 0012F8BC  CS = 001B  EIP = 77E73887  Flags = 00000202
+EBX = 03C4E464  SS = 0023  ESP = 0012F8B8    EBP = 0012F90C
+ECX = 00000000  DS = 0023  ESI = 0012F940    FS  = 003B
+EDX = 0053F6D5  ES = 0023  EDI = 00000000    GS  = 0000
+Code at CS:EIP
+5E C9 C2 10 00 6A 18 68 28 30 E8 77 E8 40 6A 00 
+Stack:
+04319DF8 0EEDFADE 00000001 00000000 77E73887 
+0012F968 0344705C 00000000 00000000 00000000 
+00000000 00000000 00000000 00000000 77E814C7 
+03447005 0431ACCC 0431A20B 0431AC78 0002040B 
+
+
+
+---------------------------15:46:39 07/07/2003---------------------------
+Exception 'EDatabaseError' in module VetPractice.exe at 0013E6D5
+Field 'Desexed' not found
+
+Source file: UNKNOWN, Line UNKNOWN
+
+Call stack:
+:0053F6D5 [VetPractice.exe] Db.DatabaseError
+:0053F73E [VetPractice.exe] Db.DatabaseErrorFmt
+:0054D567 [VetPractice.exe] Db.TDataSet.FieldByName
+:0098C99D [VetPractice.exe] Animalobject.TAnimalObject.GetAnimalDesc (AnimalObject.pas, line 570)
+:00B75FD3 [VetPractice.exe] Frpatientslist.TFraPatientsList.UpdateHeader (FrPatientsList.pas, line 687)
+:00B74EF0 [VetPractice.exe] Frpatientslist.TFraPatientsList.GrdPatientChangeNode (FrPatientsList.pas, line 452)
+:00B74E13 [VetPractice.exe] Frpatientslist.TFraPatientsList.SearchTimerTimer (FrPatientsList.pas, line 410)
+:00D6EA66 [VetPractice.exe] Fmpatients1.TFrmPatients.PatientListFrameSearchTimerTimer (FmPatients1.pas, line 560)
+:0042D5C2 [VetPractice.exe] Classes.StdWndProc
+:77D43A68 [user32.dll]
+:77D43B37 [user32.dll]
+:77D43D91 [user32.dll]
+:77D4438C [user32.dll]
+:00DC6761 [VetPractice.exe] initialization (VetPractice.dpr, line 204)
+:77E814C7 [kernel32.dll]
+
+Registers:
+EAX = 0012FAF4  CS = 001B  EIP = 77E73887  Flags = 00000202
+EBX = 03C4E464  SS = 0023  ESP = 0012FAF0    EBP = 0012FB44
+ECX = 00000000  DS = 0023  ESI = 0012FB78    FS  = 0038
+EDX = 0053F6D5  ES = 0023  EDI = 00000000    GS  = 0000
+Code at CS:EIP
+5E C9 C2 10 00 6A 18 68 28 30 E8 77 E8 40 6A 00 
+Stack:
+042C3DE0 0EEDFADE 00000001 00000000 77E73887 
+0012FBA0 0344705C 00000000 00000000 00000000 
+00000000 00000000 00000000 00000000 77E814C7 
+03447005 042CA6A8 042C970B 042CA5D4 0002040B 
+
+
+
+---------------------------15:47:27 07/07/2003---------------------------
+Exception 'EDatabaseError' in module VetPractice.exe at 0013E6D5
+Field 'Desexed' not found
+
+Source file: UNKNOWN, Line UNKNOWN
+
+Call stack:
+:0053F6D5 [VetPractice.exe] Db.DatabaseError
+:0053F73E [VetPractice.exe] Db.DatabaseErrorFmt
+:0054D567 [VetPractice.exe] Db.TDataSet.FieldByName
+:0098C99D [VetPractice.exe] Animalobject.TAnimalObject.GetAnimalDesc (AnimalObject.pas, line 570)
+:00B75FD3 [VetPractice.exe] Frpatientslist.TFraPatientsList.UpdateHeader (FrPatientsList.pas, line 687)
+:00B74EF0 [VetPractice.exe] Frpatientslist.TFraPatientsList.GrdPatientChangeNode (FrPatientsList.pas, line 452)
+:00569F22 [VetPractice.exe] Dxtl.TCustomdxTreeList.DoChangeNode (dxTL.pas, line 11497)
+:0055F768 [VetPractice.exe] Dxtl.TCustomdxTreeList.MouseDown (dxTL.pas, line 7301)
+:004612EB [VetPractice.exe] Controls.TControl.DoMouseDown
+:00461337 [VetPractice.exe] Controls.TControl.WMLButtonDown
+:004640B4 [VetPractice.exe] Controls.TWinControl.WndProc
+:0042D5C2 [VetPractice.exe] Classes.StdWndProc
+:77D43A68 [user32.dll]
+:77D43B37 [user32.dll]
+:77D43D91 [user32.dll]
+:77D4438C [user32.dll]
+:00DC6761 [VetPractice.exe] initialization (VetPractice.dpr, line 204)
+:77E814C7 [kernel32.dll]
+
+Registers:
+EAX = 0012F8BC  CS = 001B  EIP = 77E73887  Flags = 00000202
+EBX = 03C4E464  SS = 0023  ESP = 0012F8B8    EBP = 0012F90C
+ECX = 00000000  DS = 0023  ESI = 0012F940    FS  = 003B
+EDX = 0053F6D5  ES = 0023  EDI = 00000000    GS  = 0000
+Code at CS:EIP
+5E C9 C2 10 00 6A 18 68 28 30 E8 77 E8 40 6A 00 
+Stack:
+03E38D7C 0EEDFADE 00000001 00000000 77E73887 
+0012F968 0344705C 00000000 00000000 00000000 
+00000000 00000000 00000000 00000000 77E814C7 
+03447005 042CE440 042CD90B 042CDD34 0002040B 
+
+
+
+---------------------------15:51:49 07/07/2003---------------------------
+Exception 'EDatabaseError' in module VetPractice.exe at 0013E6D5
+Field 'BALANCE' not found
+
+Source file: UNKNOWN, Line UNKNOWN
+
+Call stack:
+:0053F6D5 [VetPractice.exe] Db.DatabaseError
+:0053F73E [VetPractice.exe] Db.DatabaseErrorFmt
+:0054D567 [VetPractice.exe] Db.TDataSet.FieldByName
+:00A84526 [VetPractice.exe] Patientobject.TPatientObject.Balance (PatientObject.pas, line 160)
+:00B75F05 [VetPractice.exe] Frpatientslist.TFraPatientsList.UpdateHeader (FrPatientsList.pas, line 681)
+:00B74EF0 [VetPractice.exe] Frpatientslist.TFraPatientsList.GrdPatientChangeNode (FrPatientsList.pas, line 452)
+:00569F22 [VetPractice.exe] Dxtl.TCustomdxTreeList.DoChangeNode (dxTL.pas, line 11497)
+:0055F768 [VetPractice.exe] Dxtl.TCustomdxTreeList.MouseDown (dxTL.pas, line 7301)
+:004612EB [VetPractice.exe] Controls.TControl.DoMouseDown
+:00461337 [VetPractice.exe] Controls.TControl.WMLButtonDown
+:004640B4 [VetPractice.exe] Controls.TWinControl.WndProc
+:0042D5C2 [VetPractice.exe] Classes.StdWndProc
+:77D43A68 [user32.dll]
+:77D43B37 [user32.dll]
+:77D43D91 [user32.dll]
+:77D4438C [user32.dll]
+:00DC6761 [VetPractice.exe] initialization (VetPractice.dpr, line 204)
+:77E814C7 [kernel32.dll]
+
+Registers:
+EAX = 0012F8CC  CS = 001B  EIP = 77E73887  Flags = 00000202
+EBX = 034ECF24  SS = 0023  ESP = 0012F8C8    EBP = 0012F91C
+ECX = 00000000  DS = 0023  ESI = 0012F950    FS  = 003B
+EDX = 0053F6D5  ES = 0023  EDI = 00000000    GS  = 0000
+Code at CS:EIP
+5E C9 C2 10 00 6A 18 68 28 30 E8 77 E8 40 6A 00 
+Stack:
+03E2AF2C 0EEDFADE 00000001 00000000 77E73887 
+0012F978 0344705C 00000000 00000000 00000000 
+00000000 00000000 00000000 00000000 77E814C7 
+03447005 042CEDA4 042C180B 041FB240 0002040B 
+
+
+
+---------------------------15:56:29 07/07/2003---------------------------
+Exception 'EDatabaseError' in module VetPractice.exe at 0013E6D5
+Field 'Desexed' not found
+
+Source file: UNKNOWN, Line UNKNOWN
+
+Call stack:
+:0053F6D5 [VetPractice.exe] Db.DatabaseError
+:0053F73E [VetPractice.exe] Db.DatabaseErrorFmt
+:0054D567 [VetPractice.exe] Db.TDataSet.FieldByName
+:0098C99D [VetPractice.exe] Animalobject.TAnimalObject.GetAnimalDesc (AnimalObject.pas, line 570)
+:00B75FD3 [VetPractice.exe] Frpatientslist.TFraPatientsList.UpdateHeader (FrPatientsList.pas, line 687)
+:00B74EF0 [VetPractice.exe] Frpatientslist.TFraPatientsList.GrdPatientChangeNode (FrPatientsList.pas, line 452)
+:00B74E13 [VetPractice.exe] Frpatientslist.TFraPatientsList.SearchTimerTimer (FrPatientsList.pas, line 410)
+:00D6EA66 [VetPractice.exe] Fmpatients1.TFrmPatients.PatientListFrameSearchTimerTimer (FmPatients1.pas, line 560)
+:0042D5C2 [VetPractice.exe] Classes.StdWndProc
+:77D43A68 [user32.dll]
+:77D43B37 [user32.dll]
+:77D43D91 [user32.dll]
+:77D4438C [user32.dll]
+:00DC6761 [VetPractice.exe] initialization (VetPractice.dpr, line 204)
+:77E814C7 [kernel32.dll]
+
+Registers:
+EAX = 0012FAF4  CS = 001B  EIP = 77E73887  Flags = 00000202
+EBX = 03C4E464  SS = 0023  ESP = 0012FAF0    EBP = 0012FB44
+ECX = 00000000  DS = 0023  ESI = 0012FB78    FS  = 0038
+EDX = 0053F6D5  ES = 0023  EDI = 00000000    GS  = 0000
+Code at CS:EIP
+5E C9 C2 10 00 6A 18 68 28 30 E8 77 E8 40 6A 00 
+Stack:
+04280EC8 0EEDFADE 00000001 00000000 77E73887 
+0012FBA0 0344705C 00000000 00000000 00000000 
+00000000 00000000 00000000 00000000 77E814C7 
+03447005 042967A4 0429580B 042966D0 0002040B 
+
+
+
+---------------------------15:57:37 07/07/2003---------------------------
+Exception 'EDatabaseError' in module VetPractice.exe at 0013E6D5
+Field 'Desexed' not found
+
+Source file: UNKNOWN, Line UNKNOWN
+
+Call stack:
+:0053F6D5 [VetPractice.exe] Db.DatabaseError
+:0053F73E [VetPractice.exe] Db.DatabaseErrorFmt
+:0054D567 [VetPractice.exe] Db.TDataSet.FieldByName
+:0098C99D [VetPractice.exe] Animalobject.TAnimalObject.GetAnimalDesc (AnimalObject.pas, line 570)
+:00B75FD3 [VetPractice.exe] Frpatientslist.TFraPatientsList.UpdateHeader (FrPatientsList.pas, line 687)
+:00B74EF0 [VetPractice.exe] Frpatientslist.TFraPatientsList.GrdPatientChangeNode (FrPatientsList.pas, line 452)
+:00569F22 [VetPractice.exe] Dxtl.TCustomdxTreeList.DoChangeNode (dxTL.pas, line 11497)
+:0055F768 [VetPractice.exe] Dxtl.TCustomdxTreeList.MouseDown (dxTL.pas, line 7301)
+:004612EB [VetPractice.exe] Controls.TControl.DoMouseDown
+:00461337 [VetPractice.exe] Controls.TControl.WMLButtonDown
+:004640B4 [VetPractice.exe] Controls.TWinControl.WndProc
+:0042D5C2 [VetPractice.exe] Classes.StdWndProc
+:77D43A68 [user32.dll]
+:77D43B37 [user32.dll]
+:77D43D91 [user32.dll]
+:77D4438C [user32.dll]
+:00DC6761 [VetPractice.exe] initialization (VetPractice.dpr, line 204)
+:77E814C7 [kernel32.dll]
+
+Registers:
+EAX = 0012F8BC  CS = 001B  EIP = 77E73887  Flags = 00000202
+EBX = 03C4E464  SS = 0023  ESP = 0012F8B8    EBP = 0012F90C
+ECX = 00000000  DS = 0023  ESI = 0012F940    FS  = 003B
+EDX = 0053F6D5  ES = 0023  EDI = 00000000    GS  = 0000
+Code at CS:EIP
+5E C9 C2 10 00 6A 18 68 28 30 E8 77 E8 40 6A 00 
+Stack:
+0429A168 0EEDFADE 00000001 00000000 77E73887 
+0012F968 0344705C 00000000 00000000 00000000 
+00000000 00000000 00000000 00000000 77E814C7 
+03447005 042983EC 0429780B 042982E0 0002040B 
+
+
+
+---------------------------15:58:03 07/07/2003---------------------------
+Exception 'EDatabaseError' in module VetPractice.exe at 0013E6D5
+Field 'BALANCE' not found
+
+Source file: UNKNOWN, Line UNKNOWN
+
+Call stack:
+:0053F6D5 [VetPractice.exe] Db.DatabaseError
+:0053F73E [VetPractice.exe] Db.DatabaseErrorFmt
+:0054D567 [VetPractice.exe] Db.TDataSet.FieldByName
+:00A84526 [VetPractice.exe] Patientobject.TPatientObject.Balance (PatientObject.pas, line 160)
+:00B75F05 [VetPractice.exe] Frpatientslist.TFraPatientsList.UpdateHeader (FrPatientsList.pas, line 681)
+:00B74EF0 [VetPractice.exe] Frpatientslist.TFraPatientsList.GrdPatientChangeNode (FrPatientsList.pas, line 452)
+:00569F22 [VetPractice.exe] Dxtl.TCustomdxTreeList.DoChangeNode (dxTL.pas, line 11497)
+:0055F768 [VetPractice.exe] Dxtl.TCustomdxTreeList.MouseDown (dxTL.pas, line 7301)
+:004612EB [VetPractice.exe] Controls.TControl.DoMouseDown
+:00461337 [VetPractice.exe] Controls.TControl.WMLButtonDown
+:004640B4 [VetPractice.exe] Controls.TWinControl.WndProc
+:0042D5C2 [VetPractice.exe] Classes.StdWndProc
+:77D43A68 [user32.dll]
+:77D43B37 [user32.dll]
+:77D43D91 [user32.dll]
+:77D43DF7 [user32.dll]
+:77D4D9AA [user32.dll]
+:77D4D9E5 [user32.dll]
+:77D60B36 [user32.dll]
+:009911ED [VetPractice.exe] Excmagic.TDSShowException (ExcMagic.pas, line 1512)
+:009912A4 [VetPractice.exe] Excmagic.TDSAppShowException (ExcMagic.pas, line 1533)
+:007972EE [VetPractice.exe] Appevnts.TMultiCaster.DoException
+:00481F03 [VetPractice.exe] Forms.TApplication.HandleException
+:0042D5C2 [VetPractice.exe] Classes.StdWndProc
+:77D43A68 [user32.dll]
+:77D43B37 [user32.dll]
+:77D43D91 [user32.dll]
+:77D4438C [user32.dll]
+:00DC6761 [VetPractice.exe] initialization (VetPractice.dpr, line 204)
+:77E814C7 [kernel32.dll]
+
+Registers:
+EAX = 0012E8BC  CS = 001B  EIP = 77E73887  Flags = 00000202
+EBX = 034ECF24  SS = 0023  ESP = 0012E8B8    EBP = 0012E90C
+ECX = 00000000  DS = 0023  ESI = 0012E940    FS  = 003B
+EDX = 0053F6D5  ES = 0023  EDI = 00000000    GS  = 0000
+Code at CS:EIP
+5E C9 C2 10 00 6A 18 68 28 30 E8 77 E8 40 6A 00 
+Stack:
+0428D364 0EEDFADE 00000001 00000000 77E73887 
+0012E968 0344705C 00000000 00000000 00000000 
+00000000 00000000 00000000 00000000 77E814C7 
+03447005 0428DBB4 0428D50B 0428E5A4 0002040B 
+
+
+
+---------------------------16:05:55 07/07/2003---------------------------
+Exception 'EDatabaseError' in module VetPractice.exe at 0013E6D5
+Field 'Desexed' not found
+
+Source file: UNKNOWN, Line UNKNOWN
+
+Call stack:
+:0053F6D5 [VetPractice.exe] Db.DatabaseError
+:0053F73E [VetPractice.exe] Db.DatabaseErrorFmt
+:0054D567 [VetPractice.exe] Db.TDataSet.FieldByName
+:0098C99D [VetPractice.exe] Animalobject.TAnimalObject.GetAnimalDesc (AnimalObject.pas, line 570)
+:00B75FD3 [VetPractice.exe] Frpatientslist.TFraPatientsList.UpdateHeader (FrPatientsList.pas, line 687)
+:00B74EF0 [VetPractice.exe] Frpatientslist.TFraPatientsList.GrdPatientChangeNode (FrPatientsList.pas, line 452)
+:00B74E13 [VetPractice.exe] Frpatientslist.TFraPatientsList.SearchTimerTimer (FrPatientsList.pas, line 410)
+:00D6EA66 [VetPractice.exe] Fmpatients1.TFrmPatients.PatientListFrameSearchTimerTimer (FmPatients1.pas, line 560)
+:0042D5C2 [VetPractice.exe] Classes.StdWndProc
+:77D43A68 [user32.dll]
+:77D43B37 [user32.dll]
+:77D43D91 [user32.dll]
+:77D4438C [user32.dll]
+:00DC6761 [VetPractice.exe] initialization (VetPractice.dpr, line 204)
+:77E814C7 [kernel32.dll]
+
+Registers:
+EAX = 0012FAF4  CS = 001B  EIP = 77E73887  Flags = 00000202
+EBX = 03C4E464  SS = 0023  ESP = 0012FAF0    EBP = 0012FB44
+ECX = 00000000  DS = 0023  ESI = 0012FB78    FS  = 0038
+EDX = 0053F6D5  ES = 0023  EDI = 00000000    GS  = 0000
+Code at CS:EIP
+5E C9 C2 10 00 6A 18 68 28 30 E8 77 E8 40 6A 00 
+Stack:
+042B3004 0EEDFADE 00000001 00000000 77E73887 
+0012FBA0 0344705C 00000000 00000000 00000000 
+00000000 00000000 00000000 00000000 77E814C7 
+03447005 042C5D18 042B410B 042C5C0C 0002040B 
+
+
+
+---------------------------16:07:13 07/07/2003---------------------------
+Exception 'EDatabaseError' in module VetPractice.exe at 0013E6D5
+Field 'Desexed' not found
+
+Source file: UNKNOWN, Line UNKNOWN
+
+Call stack:
+:0053F6D5 [VetPractice.exe] Db.DatabaseError
+:0053F73E [VetPractice.exe] Db.DatabaseErrorFmt
+:0054D567 [VetPractice.exe] Db.TDataSet.FieldByName
+:0098C99D [VetPractice.exe] Animalobject.TAnimalObject.GetAnimalDesc (AnimalObject.pas, line 570)
+:00B75FD3 [VetPractice.exe] Frpatientslist.TFraPatientsList.UpdateHeader (FrPatientsList.pas, line 687)
+:00B74EF0 [VetPractice.exe] Frpatientslist.TFraPatientsList.GrdPatientChangeNode (FrPatientsList.pas, line 452)
+:00569F22 [VetPractice.exe] Dxtl.TCustomdxTreeList.DoChangeNode (dxTL.pas, line 11497)
+:0055F768 [VetPractice.exe] Dxtl.TCustomdxTreeList.MouseDown (dxTL.pas, line 7301)
+:004612EB [VetPractice.exe] Controls.TControl.DoMouseDown
+:00461337 [VetPractice.exe] Controls.TControl.WMLButtonDown
+:004640B4 [VetPractice.exe] Controls.TWinControl.WndProc
+:0042D5C2 [VetPractice.exe] Classes.StdWndProc
+:77D43A68 [user32.dll]
+:77D43B37 [user32.dll]
+:77D43D91 [user32.dll]
+:77D4438C [user32.dll]
+:00DC6761 [VetPractice.exe] initialization (VetPractice.dpr, line 204)
+:77E814C7 [kernel32.dll]
+
+Registers:
+EAX = 0012F8BC  CS = 001B  EIP = 77E73887  Flags = 00000202
+EBX = 03C4E464  SS = 0023  ESP = 0012F8B8    EBP = 0012F90C
+ECX = 00000000  DS = 0023  ESI = 0012F940    FS  = 003B
+EDX = 0053F6D5  ES = 0023  EDI = 00000000    GS  = 0000
+Code at CS:EIP
+5E C9 C2 10 00 6A 18 68 28 30 E8 77 E8 40 6A 00 
+Stack:
+0429DD18 0EEDFADE 00000001 00000000 77E73887 
+0012F968 0344705C 00000000 00000000 00000000 
+00000000 00000000 00000000 00000000 77E814C7 
+03447005 042B59E8 042B4D0B 042B58DC 0002040B 
+
+
+
+---------------------------16:15:09 07/07/2003---------------------------
+Exception 'EDatabaseError' in module VetPractice.exe at 0013E6D5
+Field 'Desexed' not found
+
+Source file: UNKNOWN, Line UNKNOWN
+
+Call stack:
+:0053F6D5 [VetPractice.exe] Db.DatabaseError
+:0053F73E [VetPractice.exe] Db.DatabaseErrorFmt
+:0054D567 [VetPractice.exe] Db.TDataSet.FieldByName
+:0098C99D [VetPractice.exe] Animalobject.TAnimalObject.GetAnimalDesc (AnimalObject.pas, line 570)
+:00B75FD3 [VetPractice.exe] Frpatientslist.TFraPatientsList.UpdateHeader (FrPatientsList.pas, line 687)
+:00B74EF0 [VetPractice.exe] Frpatientslist.TFraPatientsList.GrdPatientChangeNode (FrPatientsList.pas, line 452)
+:00B74E13 [VetPractice.exe] Frpatientslist.TFraPatientsList.SearchTimerTimer (FrPatientsList.pas, line 410)
+:00D6EA66 [VetPractice.exe] Fmpatients1.TFrmPatients.PatientListFrameSearchTimerTimer (FmPatients1.pas, line 560)
+:0042D5C2 [VetPractice.exe] Classes.StdWndProc
+:77D43A68 [user32.dll]
+:77D43B37 [user32.dll]
+:77D43D91 [user32.dll]
+:77D4438C [user32.dll]
+:00DC6761 [VetPractice.exe] initialization (VetPractice.dpr, line 204)
+:77E814C7 [kernel32.dll]
+
+Registers:
+EAX = 0012FAF4  CS = 001B  EIP = 77E73887  Flags = 00000202
+EBX = 03C4E464  SS = 0023  ESP = 0012FAF0    EBP = 0012FB44
+ECX = 00000000  DS = 0023  ESI = 0012FB78    FS  = 0038
+EDX = 0053F6D5  ES = 0023  EDI = 00000000    GS  = 0000
+Code at CS:EIP
+5E C9 C2 10 00 6A 18 68 28 30 E8 77 E8 40 6A 00 
+Stack:
+0428FDD0 0EEDFADE 00000001 00000000 77E73887 
+0012FBA0 0344705C 00000000 00000000 00000000 
+00000000 00000000 00000000 00000000 77E814C7 
+03447005 03E293B8 0429180B 042922F8 0002040B 
+
+
+
+---------------------------16:15:25 07/07/2003---------------------------
+Exception 'EDatabaseError' in module VetPractice.exe at 0013E6D5
+Field 'Desexed' not found
+
+Source file: UNKNOWN, Line UNKNOWN
+
+Call stack:
+:0053F6D5 [VetPractice.exe] Db.DatabaseError
+:0053F73E [VetPractice.exe] Db.DatabaseErrorFmt
+:0054D567 [VetPractice.exe] Db.TDataSet.FieldByName
+:0098C99D [VetPractice.exe] Animalobject.TAnimalObject.GetAnimalDesc (AnimalObject.pas, line 570)
+:00B75FD3 [VetPractice.exe] Frpatientslist.TFraPatientsList.UpdateHeader (FrPatientsList.pas, line 687)
+:00B74EF0 [VetPractice.exe] Frpatientslist.TFraPatientsList.GrdPatientChangeNode (FrPatientsList.pas, line 452)
+:00569F22 [VetPractice.exe] Dxtl.TCustomdxTreeList.DoChangeNode (dxTL.pas, line 11497)
+:0055F768 [VetPractice.exe] Dxtl.TCustomdxTreeList.MouseDown (dxTL.pas, line 7301)
+:004612EB [VetPractice.exe] Controls.TControl.DoMouseDown
+:00461337 [VetPractice.exe] Controls.TControl.WMLButtonDown
+:004640B4 [VetPractice.exe] Controls.TWinControl.WndProc
+:0042D5C2 [VetPractice.exe] Classes.StdWndProc
+:77D43A68 [user32.dll]
+:77D43B37 [user32.dll]
+:77D43D91 [user32.dll]
+:77D4438C [user32.dll]
+:00DC6761 [VetPractice.exe] initialization (VetPractice.dpr, line 204)
+:77E814C7 [kernel32.dll]
+
+Registers:
+EAX = 0012F8BC  CS = 001B  EIP = 77E73887  Flags = 00000202
+EBX = 03C4E464  SS = 0023  ESP = 0012F8B8    EBP = 0012F90C
+ECX = 00000000  DS = 0023  ESI = 0012F940    FS  = 003B
+EDX = 0053F6D5  ES = 0023  EDI = 00000000    GS  = 0000
+Code at CS:EIP
+5E C9 C2 10 00 6A 18 68 28 30 E8 77 E8 40 6A 00 
+Stack:
+0429015C 0EEDFADE 00000001 00000000 77E73887 
+0012F968 0344705C 00000000 00000000 00000000 
+00000000 00000000 00000000 00000000 77E814C7 
+03447005 04295D1C 0428140B 04295C9C 0002040B 
+
+
+
+---------------------------16:16:39 07/07/2003---------------------------
+Exception 'EDatabaseError' in module VetPractice.exe at 0013E6D5
+Field 'BALANCE' not found
+
+Source file: UNKNOWN, Line UNKNOWN
+
+Call stack:
+:0053F6D5 [VetPractice.exe] Db.DatabaseError
+:0053F73E [VetPractice.exe] Db.DatabaseErrorFmt
+:0054D567 [VetPractice.exe] Db.TDataSet.FieldByName
+:00A84526 [VetPractice.exe] Patientobject.TPatientObject.Balance (PatientObject.pas, line 160)
+:00B75F05 [VetPractice.exe] Frpatientslist.TFraPatientsList.UpdateHeader (FrPatientsList.pas, line 681)
+:00B74EF0 [VetPractice.exe] Frpatientslist.TFraPatientsList.GrdPatientChangeNode (FrPatientsList.pas, line 452)
+:00569F22 [VetPractice.exe] Dxtl.TCustomdxTreeList.DoChangeNode (dxTL.pas, line 11497)
+:0055F768 [VetPractice.exe] Dxtl.TCustomdxTreeList.MouseDown (dxTL.pas, line 7301)
+:004612EB [VetPractice.exe] Controls.TControl.DoMouseDown
+:00461337 [VetPractice.exe] Controls.TControl.WMLButtonDown
+:004640B4 [VetPractice.exe] Controls.TWinControl.WndProc
+:0042D5C2 [VetPractice.exe] Classes.StdWndProc
+:77D43A68 [user32.dll]
+:77D43B37 [user32.dll]
+:77D43D91 [user32.dll]
+:77D4438C [user32.dll]
+:00DC6761 [VetPractice.exe] initialization (VetPractice.dpr, line 204)
+:77E814C7 [kernel32.dll]
+
+Registers:
+EAX = 0012F8CC  CS = 001B  EIP = 77E73887  Flags = 00000202
+EBX = 034ECF24  SS = 0023  ESP = 0012F8C8    EBP = 0012F91C
+ECX = 00000000  DS = 0023  ESI = 0012F950    FS  = 003B
+EDX = 0053F6D5  ES = 0023  EDI = 00000000    GS  = 0000
+Code at CS:EIP
+5E C9 C2 10 00 6A 18 68 28 30 E8 77 E8 40 6A 00 
+Stack:
+0428D7B4 0EEDFADE 00000001 00000000 77E73887 
+0012F978 0344705C 00000000 00000000 00000000 
+00000000 00000000 00000000 00000000 77E814C7 
+03447005 04281AB8 0429190B 042819AC 0002040B 
+
+
+
+---------------------------16:17:18 07/07/2003---------------------------
+Exception 'EDatabaseError' in module VetPractice.exe at 0013E6D5
+Field 'BALANCE' not found
+
+Source file: UNKNOWN, Line UNKNOWN
+
+Call stack:
+:0053F6D5 [VetPractice.exe] Db.DatabaseError
+:0053F73E [VetPractice.exe] Db.DatabaseErrorFmt
+:0054D567 [VetPractice.exe] Db.TDataSet.FieldByName
+:00A84526 [VetPractice.exe] Patientobject.TPatientObject.Balance (PatientObject.pas, line 160)
+:00B75F05 [VetPractice.exe] Frpatientslist.TFraPatientsList.UpdateHeader (FrPatientsList.pas, line 681)
+:00B74EF0 [VetPractice.exe] Frpatientslist.TFraPatientsList.GrdPatientChangeNode (FrPatientsList.pas, line 452)
+:00569F22 [VetPractice.exe] Dxtl.TCustomdxTreeList.DoChangeNode (dxTL.pas, line 11497)
+:0055F768 [VetPractice.exe] Dxtl.TCustomdxTreeList.MouseDown (dxTL.pas, line 7301)
+:004612EB [VetPractice.exe] Controls.TControl.DoMouseDown
+:00461337 [VetPractice.exe] Controls.TControl.WMLButtonDown
+:004640B4 [VetPractice.exe] Controls.TWinControl.WndProc
+:0042D5C2 [VetPractice.exe] Classes.StdWndProc
+:77D43A68 [user32.dll]
+:77D43B37 [user32.dll]
+:77D43D91 [user32.dll]
+:77D4438C [user32.dll]
+:00DC6761 [VetPractice.exe] initialization (VetPractice.dpr, line 204)
+:77E814C7 [kernel32.dll]
+
+Registers:
+EAX = 0012F8CC  CS = 001B  EIP = 77E73887  Flags = 00000202
+EBX = 034ECF24  SS = 0023  ESP = 0012F8C8    EBP = 0012F91C
+ECX = 00000000  DS = 0023  ESI = 0012F950    FS  = 003B
+EDX = 0053F6D5  ES = 0023  EDI = 00000000    GS  = 0000
+Code at CS:EIP
+5E C9 C2 10 00 6A 18 68 28 30 E8 77 E8 40 6A 00 
+Stack:
+04295D0C 0EEDFADE 00000001 00000000 77E73887 
+0012F978 0344705C 00000000 00000000 00000000 
+00000000 00000000 00000000 00000000 77E814C7 
+03447005 04295F04 0428D80B 04295E5C 0002040B 
+
+
+
+---------------------------16:17:25 07/07/2003---------------------------
+Exception 'EkbmMWException' in module VetPractice.exe at 003620E1
+Connection lost.
+
+Source file: kbmMWGlobal.pas, Line 224
+
+Call stack:
+:007630E1 [VetPractice.exe] Kbmmwglobal.kbmMWRaiseException (kbmMWGlobal.pas, line 224)
+:0076C1E0 [VetPractice.exe] Kbmmwclient.TkbmMWCustomClient.SendRequestEx (kbmMWClient.pas, line 408)
+:0076C6BE [VetPractice.exe] Kbmmwclient.TkbmMWCustomClient.SendRequest (kbmMWClient.pas, line 520)
+:0076C742 [VetPractice.exe] Kbmmwclient.TkbmMWCustomSimpleClient.Request (kbmMWClient.pas, line 527)
+:00770241 [VetPractice.exe] Kbmmwclientdataset.TkbmMWCustomClientCursor.PerformRefreshDefinitions (kbmMWClientDataset.pas, line 998)
+:0076715B [VetPractice.exe] Kbmmwcustomdataset.TkbmMWCustomPooledCursor.InternalInitFieldDefs (kbmMWCustomDataset.pas, line 873)
+:0076F266 [VetPractice.exe] Kbmmwclientdataset.TkbmMWCustomClientCursor.InternalInitFieldDefs (kbmMWClientDataset.pas, line 732)
+:00766161 [VetPractice.exe] Kbmmwcustomconnectionpool.TkbmMWCustomPooledDataset.InternalOpen (kbmMWCustomConnectionPool.pas, line 2234)
+:0075799B [VetPractice.exe] Kbmmemtable.TkbmCustomMemTable.SetActive (kbmMemTable.pas, line 6257)
+:0047B023 [VetPractice.exe] Forms.TCustomForm.DoShow
+:0046107B [VetPractice.exe] Controls.TControl.WndProc
+:004640B4 [VetPractice.exe] Controls.TWinControl.WndProc
+:00460E4B [VetPractice.exe] Controls.TControl.Perform
+:00463C08 [VetPractice.exe] Controls.TWinControl.UpdateShowing
+:00463C73 [VetPractice.exe] Controls.TWinControl.UpdateControlState
+:004640B4 [VetPractice.exe] Controls.TWinControl.WndProc
+:00460E4B [VetPractice.exe] Controls.TControl.Perform
+:0045FB28 [VetPractice.exe] Controls.TControl.SetVisible
+:00BF699F [VetPractice.exe] Fmmain.TFrmMain.LoadItem (FmMain.pas, line 610)
+:00BF688E [VetPractice.exe] Fmmain.TFrmMain.ActAppointmentExecute (FmMain.pas, line 585)
+:00461601 [VetPractice.exe] Controls.TControl.DoMouseUp
+:004640B4 [VetPractice.exe] Controls.TWinControl.WndProc
+:0042D5C2 [VetPractice.exe] Classes.StdWndProc
+:77D43A68 [user32.dll]
+:77D43B37 [user32.dll]
+:77D43D91 [user32.dll]
+:77D4438C [user32.dll]
+:00DC6761 [VetPractice.exe] initialization (VetPractice.dpr, line 204)
+:77E814C7 [kernel32.dll]
+
+Registers:
+EAX = 0012F3B0  CS = 001B  EIP = 77E73887  Flags = 00000202
+EBX = 0076C199  SS = 0023  ESP = 0012F3AC    EBP = 0012F400
+ECX = 00000000  DS = 0023  ESI = 0012F434    FS  = 003B
+EDX = 007630E1  ES = 0023  EDI = 0012F440    GS  = 0000
+Code at CS:EIP
+5E C9 C2 10 00 6A 18 68 28 30 E8 77 E8 40 6A 00 
+Stack:
+00000000 0EEDFADE 00000001 00000000 77E73887 
+0012F444 0344705C 00000000 00000000 00000000 
+00000000 00000000 00000000 00000000 77E814C7 
+03447005 04296E04 0428390B 04296BAC 0002040B 
+
+
+
+---------------------------16:27:19 07/07/2003---------------------------
+Exception 'EDatabaseError' in module VetPractice.exe at 0013E6D5
+Field 'Desexed' not found
+
+Source file: UNKNOWN, Line UNKNOWN
+
+Call stack:
+:0053F6D5 [VetPractice.exe] Db.DatabaseError
+:0053F73E [VetPractice.exe] Db.DatabaseErrorFmt
+:0054D567 [VetPractice.exe] Db.TDataSet.FieldByName
+:0098C99D [VetPractice.exe] Animalobject.TAnimalObject.GetAnimalDesc (AnimalObject.pas, line 570)
+:00B75FD3 [VetPractice.exe] Frpatientslist.TFraPatientsList.UpdateHeader (FrPatientsList.pas, line 687)
+:00B74EF0 [VetPractice.exe] Frpatientslist.TFraPatientsList.GrdPatientChangeNode (FrPatientsList.pas, line 452)
+:00B74E13 [VetPractice.exe] Frpatientslist.TFraPatientsList.SearchTimerTimer (FrPatientsList.pas, line 410)
+:00D6EA66 [VetPractice.exe] Fmpatients1.TFrmPatients.PatientListFrameSearchTimerTimer (FmPatients1.pas, line 560)
+:0042D5C2 [VetPractice.exe] Classes.StdWndProc
+:77D43A68 [user32.dll]
+:77D43B37 [user32.dll]
+:77D43D91 [user32.dll]
+:77D4438C [user32.dll]
+:00DC6761 [VetPractice.exe] initialization (VetPractice.dpr, line 204)
+:77E814C7 [kernel32.dll]
+
+Registers:
+EAX = 0012FAF4  CS = 001B  EIP = 77E73887  Flags = 00000202
+EBX = 03C4E464  SS = 0023  ESP = 0012FAF0    EBP = 0012FB44
+ECX = 00000000  DS = 0023  ESI = 0012FB78    FS  = 003B
+EDX = 0053F6D5  ES = 0023  EDI = 00000000    GS  = 0000
+Code at CS:EIP
+5E C9 C2 10 00 6A 18 68 28 30 E8 77 E8 40 6A 00 
+Stack:
+047DE258 0EEDFADE 00000001 00000000 77E73887 
+0012FBA0 0344705C 00000000 00000000 00000000 
+00000000 00000000 00000000 00000000 77E814C7 
+03447005 0509CD6C 0509C20B 0509CB80 0002040B 
+
+
+
+---------------------------16:27:45 07/07/2003---------------------------
+Exception 'EDatabaseError' in module VetPractice.exe at 0013E6D5
+Field 'Desexed' not found
+
+Source file: UNKNOWN, Line UNKNOWN
+
+Call stack:
+:0053F6D5 [VetPractice.exe] Db.DatabaseError
+:0053F73E [VetPractice.exe] Db.DatabaseErrorFmt
+:0054D567 [VetPractice.exe] Db.TDataSet.FieldByName
+:0098C99D [VetPractice.exe] Animalobject.TAnimalObject.GetAnimalDesc (AnimalObject.pas, line 570)
+:00B75FD3 [VetPractice.exe] Frpatientslist.TFraPatientsList.UpdateHeader (FrPatientsList.pas, line 687)
+:00B74EF0 [VetPractice.exe] Frpatientslist.TFraPatientsList.GrdPatientChangeNode (FrPatientsList.pas, line 452)
+:00569F22 [VetPractice.exe] Dxtl.TCustomdxTreeList.DoChangeNode (dxTL.pas, line 11497)
+:0055F768 [VetPractice.exe] Dxtl.TCustomdxTreeList.MouseDown (dxTL.pas, line 7301)
+:004612EB [VetPractice.exe] Controls.TControl.DoMouseDown
+:00461337 [VetPractice.exe] Controls.TControl.WMLButtonDown
+:004640B4 [VetPractice.exe] Controls.TWinControl.WndProc
+:0042D5C2 [VetPractice.exe] Classes.StdWndProc
+:77D43A68 [user32.dll]
+:77D43B37 [user32.dll]
+:77D43D91 [user32.dll]
+:77D4438C [user32.dll]
+:00DC6761 [VetPractice.exe] initialization (VetPractice.dpr, line 204)
+:77E814C7 [kernel32.dll]
+
+Registers:
+EAX = 0012F8BC  CS = 001B  EIP = 77E73887  Flags = 00000202
+EBX = 03C4E464  SS = 0023  ESP = 0012F8B8    EBP = 0012F90C
+ECX = 00000000  DS = 0023  ESI = 0012F940    FS  = 003B
+EDX = 0053F6D5  ES = 0023  EDI = 00000000    GS  = 0000
+Code at CS:EIP
+5E C9 C2 10 00 6A 18 68 28 30 E8 77 E8 40 6A 00 
+Stack:
+042C8EE8 0EEDFADE 00000001 00000000 77E73887 
+0012F968 0344705C 00000000 00000000 00000000 
+00000000 00000000 00000000 00000000 77E814C7 
+03447005 050CFF90 0509C30B 0503DBB4 0002040B 
+
+
+
+---------------------------16:27:55 07/07/2003---------------------------
+Exception 'EDatabaseError' in module VetPractice.exe at 0013E6D5
+Field 'BALANCE' not found
+
+Source file: UNKNOWN, Line UNKNOWN
+
+Call stack:
+:0053F6D5 [VetPractice.exe] Db.DatabaseError
+:0053F73E [VetPractice.exe] Db.DatabaseErrorFmt
+:0054D567 [VetPractice.exe] Db.TDataSet.FieldByName
+:00A84526 [VetPractice.exe] Patientobject.TPatientObject.Balance (PatientObject.pas, line 160)
+:00B75F05 [VetPractice.exe] Frpatientslist.TFraPatientsList.UpdateHeader (FrPatientsList.pas, line 681)
+:00B74EF0 [VetPractice.exe] Frpatientslist.TFraPatientsList.GrdPatientChangeNode (FrPatientsList.pas, line 452)
+:00569F22 [VetPractice.exe] Dxtl.TCustomdxTreeList.DoChangeNode (dxTL.pas, line 11497)
+:0055F768 [VetPractice.exe] Dxtl.TCustomdxTreeList.MouseDown (dxTL.pas, line 7301)
+:004612EB [VetPractice.exe] Controls.TControl.DoMouseDown
+:00461337 [VetPractice.exe] Controls.TControl.WMLButtonDown
+:004640B4 [VetPractice.exe] Controls.TWinControl.WndProc
+:0042D5C2 [VetPractice.exe] Classes.StdWndProc
+:77D43A68 [user32.dll]
+:77D43B37 [user32.dll]
+:77D43D91 [user32.dll]
+:77D4438C [user32.dll]
+:00DC6761 [VetPractice.exe] initialization (VetPractice.dpr, line 204)
+:77E814C7 [kernel32.dll]
+
+Registers:
+EAX = 0012F8CC  CS = 001B  EIP = 77E73887  Flags = 00000202
+EBX = 034ECF24  SS = 0023  ESP = 0012F8C8    EBP = 0012F91C
+ECX = 00000000  DS = 0023  ESI = 0012F950    FS  = 003B
+EDX = 0053F6D5  ES = 0023  EDI = 00000000    GS  = 0000
+Code at CS:EIP
+5E C9 C2 10 00 6A 18 68 28 30 E8 77 E8 40 6A 00 
+Stack:
+04605D68 0EEDFADE 00000001 00000000 77E73887 
+0012F978 0344705C 00000000 00000000 00000000 
+00000000 00000000 00000000 00000000 77E814C7 
+03447005 050427CC 0504210B 05042590 0002040B 
+
+
+
+---------------------------16:36:06 07/07/2003---------------------------
+Exception 'EDatabaseError' in module VetPractice.exe at 0013E6D5
+Field 'Desexed' not found
+
+Source file: UNKNOWN, Line UNKNOWN
+
+Call stack:
+:0053F6D5 [VetPractice.exe] Db.DatabaseError
+:0053F73E [VetPractice.exe] Db.DatabaseErrorFmt
+:0054D567 [VetPractice.exe] Db.TDataSet.FieldByName
+:0098C99D [VetPractice.exe] Animalobject.TAnimalObject.GetAnimalDesc (AnimalObject.pas, line 570)
+:00B75FD3 [VetPractice.exe] Frpatientslist.TFraPatientsList.UpdateHeader (FrPatientsList.pas, line 687)
+:00B74EF0 [VetPractice.exe] Frpatientslist.TFraPatientsList.GrdPatientChangeNode (FrPatientsList.pas, line 452)
+:00B74E13 [VetPractice.exe] Frpatientslist.TFraPatientsList.SearchTimerTimer (FrPatientsList.pas, line 410)
+:00D6EA66 [VetPractice.exe] Fmpatients1.TFrmPatients.PatientListFrameSearchTimerTimer (FmPatients1.pas, line 560)
+:0042D5C2 [VetPractice.exe] Classes.StdWndProc
+:77D43A68 [user32.dll]
+:77D43B37 [user32.dll]
+:77D43D91 [user32.dll]
+:77D4438C [user32.dll]
+:00DC6761 [VetPractice.exe] initialization (VetPractice.dpr, line 204)
+:77E814C7 [kernel32.dll]
+
+Registers:
+EAX = 0012FAF4  CS = 001B  EIP = 77E73887  Flags = 00000202
+EBX = 03C4E464  SS = 0023  ESP = 0012FAF0    EBP = 0012FB44
+ECX = 00000000  DS = 0023  ESI = 0012FB78    FS  = 0038
+EDX = 0053F6D5  ES = 0023  EDI = 00000000    GS  = 0000
+Code at CS:EIP
+5E C9 C2 10 00 6A 18 68 28 30 E8 77 E8 40 6A 00 
+Stack:
+042ACE90 0EEDFADE 00000001 00000000 77E73887 
+0012FBA0 0344705C 00000000 00000000 00000000 
+00000000 00000000 00000000 00000000 77E814C7 
+03447005 042C27EC 042C170B 042C26E0 0002040B 
+
+
+
+---------------------------16:36:18 07/07/2003---------------------------
+Exception 'EDatabaseError' in module VetPractice.exe at 0013E6D5
+Field 'Desexed' not found
+
+Source file: UNKNOWN, Line UNKNOWN
+
+Call stack:
+:0053F6D5 [VetPractice.exe] Db.DatabaseError
+:0053F73E [VetPractice.exe] Db.DatabaseErrorFmt
+:0054D567 [VetPractice.exe] Db.TDataSet.FieldByName
+:0098C99D [VetPractice.exe] Animalobject.TAnimalObject.GetAnimalDesc (AnimalObject.pas, line 570)
+:00B75FD3 [VetPractice.exe] Frpatientslist.TFraPatientsList.UpdateHeader (FrPatientsList.pas, line 687)
+:00B74EF0 [VetPractice.exe] Frpatientslist.TFraPatientsList.GrdPatientChangeNode (FrPatientsList.pas, line 452)
+:00569F22 [VetPractice.exe] Dxtl.TCustomdxTreeList.DoChangeNode (dxTL.pas, line 11497)
+:0055F768 [VetPractice.exe] Dxtl.TCustomdxTreeList.MouseDown (dxTL.pas, line 7301)
+:004612EB [VetPractice.exe] Controls.TControl.DoMouseDown
+:00461337 [VetPractice.exe] Controls.TControl.WMLButtonDown
+:004640B4 [VetPractice.exe] Controls.TWinControl.WndProc
+:0042D5C2 [VetPractice.exe] Classes.StdWndProc
+:77D43A68 [user32.dll]
+:77D43B37 [user32.dll]
+:77D43D91 [user32.dll]
+:77D4438C [user32.dll]
+:00DC6761 [VetPractice.exe] initialization (VetPractice.dpr, line 204)
+:77E814C7 [kernel32.dll]
+
+Registers:
+EAX = 0012F8BC  CS = 001B  EIP = 77E73887  Flags = 00000202
+EBX = 03C4E464  SS = 0023  ESP = 0012F8B8    EBP = 0012F90C
+ECX = 00000000  DS = 0023  ESI = 0012F940    FS  = 003B
+EDX = 0053F6D5  ES = 0023  EDI = 00000000    GS  = 0000
+Code at CS:EIP
+5E C9 C2 10 00 6A 18 68 28 30 E8 77 E8 40 6A 00 
+Stack:
+042C2FF8 0EEDFADE 00000001 00000000 77E73887 
+0012F968 0344705C 00000000 00000000 00000000 
+00000000 00000000 00000000 00000000 77E814C7 
+03447005 042C35AC 042C020B 042C3520 0002040B 
+
+
+
+---------------------------17:10:27 07/07/2003---------------------------
+Exception 'EDatabaseError' in module VetPractice.exe at 0013E6D5
+Field 'Desexed' not found
+
+Source file: UNKNOWN, Line UNKNOWN
+
+Call stack:
+:0053F6D5 [VetPractice.exe] Db.DatabaseError
+:0053F73E [VetPractice.exe] Db.DatabaseErrorFmt
+:0054D567 [VetPractice.exe] Db.TDataSet.FieldByName
+:0098C99D [VetPractice.exe] Animalobject.TAnimalObject.GetAnimalDesc (AnimalObject.pas, line 570)
+:00B75FD3 [VetPractice.exe] Frpatientslist.TFraPatientsList.UpdateHeader (FrPatientsList.pas, line 687)
+:00B74EF0 [VetPractice.exe] Frpatientslist.TFraPatientsList.GrdPatientChangeNode (FrPatientsList.pas, line 452)
+:00B74E13 [VetPractice.exe] Frpatientslist.TFraPatientsList.SearchTimerTimer (FrPatientsList.pas, line 410)
+:00D6EAD2 [VetPractice.exe] Fmpatients1.TFrmPatients.PatientListFrameSearchTimerTimer (FmPatients1.pas, line 560)
+:0042D5C2 [VetPractice.exe] Classes.StdWndProc
+:77D43A68 [user32.dll]
+:77D43B37 [user32.dll]
+:77D43D91 [user32.dll]
+:77D4438C [user32.dll]
+:00DC67CD [VetPractice.exe] initialization (VetPractice.dpr, line 204)
+:77E814C7 [kernel32.dll]
+
+Registers:
+EAX = 0012FAF4  CS = 001B  EIP = 77E73887  Flags = 00000202
+EBX = 03ACA86C  SS = 0023  ESP = 0012FAF0    EBP = 0012FB44
+ECX = 00000000  DS = 0023  ESI = 0012FB78    FS  = 0038
+EDX = 0053F6D5  ES = 0023  EDI = 00000000    GS  = 0000
+Code at CS:EIP
+5E C9 C2 10 00 6A 18 68 28 30 E8 77 E8 40 6A 00 
+Stack:
+042887C8 0EEDFADE 00000001 00000000 77E73887 
+0012FBA0 034501E4 00000000 00000000 00000000 
+00000000 00000000 00000000 00000000 77E814C7 
+03450105 04299F6C 0428630B 04299EB4 0002040B 
+
+
+
+---------------------------21:58:27 07/07/2003---------------------------
+Exception 'EDatabaseError' in module VetPractice.exe at 0013E6D5
+Field 'Desexed' not found
+
+Source file: UNKNOWN, Line UNKNOWN
+
+Call stack:
+:0053F6D5 [VetPractice.exe] Db.DatabaseError
+:0053F73E [VetPractice.exe] Db.DatabaseErrorFmt
+:0054D567 [VetPractice.exe] Db.TDataSet.FieldByName
+:0098C99D [VetPractice.exe] Animalobject.TAnimalObject.GetAnimalDesc (AnimalObject.pas, line 570)
+:00B75FD3 [VetPractice.exe] Frpatientslist.TFraPatientsList.UpdateHeader (FrPatientsList.pas, line 687)
+:00B74EF0 [VetPractice.exe] Frpatientslist.TFraPatientsList.GrdPatientChangeNode (FrPatientsList.pas, line 452)
+:00B74E13 [VetPractice.exe] Frpatientslist.TFraPatientsList.SearchTimerTimer (FrPatientsList.pas, line 410)
+:0044EC2A [VetPractice.exe] Extctrls.TTimer.Timer
+:0042D5C2 [VetPractice.exe] Classes.StdWndProc
+:77D43A68 [user32.dll]
+:77D43B37 [user32.dll]
+:77D43D91 [user32.dll]
+:77D4438C [user32.dll]
+:00BA52A7 [VetPractice.exe] Bopatientlookup.TBOPatientLookup.DoButtonClick (BOPatientLookup.pas, line 111)
+:00BA53B8 [VetPractice.exe] Bopatientlookup.TBOPatientLookup.DoEditKeyDown (BOPatientLookup.pas, line 141)
+:0062B96C [VetPractice.exe] Cxedit.TcxCustomEdit.KeyDown (cxEdit.pas, line 4507)
+
+Registers:
+EAX = 0012F260  CS = 001B  EIP = 77E73887  Flags = 00000202
+EBX = 03ADE86C  SS = 0023  ESP = 0012F25C    EBP = 0012F2B0
+ECX = 00000000  DS = 0023  ESI = 0012F2E4    FS  = 0038
+EDX = 0053F6D5  ES = 0023  EDI = 00000000    GS  = 0000
+Code at CS:EIP
+5E C9 C2 10 00 6A 18 68 28 30 E8 77 E8 40 6A 00 
+Stack:
+042B7ABC 0EEDFADE 00000001 00000000 77E73887 
+0012F30C 034601E4 00000000 00000000 00000000 
+00000000 00000000 00000000 00000000 042C6A38 
+0346010B 0000119B 042C6200 042C6CC0 0022A90B 
+
+
+
+---------------------------19:17:21 10/07/2003---------------------------
+Exception 'EDatabaseError' in module VetPractice.exe at 0013E6D5
+Field 'Desexed' not found
+
+Source file: UNKNOWN, Line UNKNOWN
+
+Call stack:
+:0053F6D5 [VetPractice.exe] Db.DatabaseError
+:0053F73E [VetPractice.exe] Db.DatabaseErrorFmt
+:0054D567 [VetPractice.exe] Db.TDataSet.FieldByName
+:0098C9E1 [VetPractice.exe] Animalobject.TAnimalObject.GetAnimalDesc (AnimalObject.pas, line 570)
+:00B76017 [VetPractice.exe] Frpatientslist.TFraPatientsList.UpdateHeader (FrPatientsList.pas, line 687)
+:00B74F34 [VetPractice.exe] Frpatientslist.TFraPatientsList.GrdPatientChangeNode (FrPatientsList.pas, line 452)
+:00B74E57 [VetPractice.exe] Frpatientslist.TFraPatientsList.SearchTimerTimer (FrPatientsList.pas, line 410)
+:0044EC2A [VetPractice.exe] Extctrls.TTimer.Timer
+:0042D5C2 [VetPractice.exe] Classes.StdWndProc
+:77D43A68 [user32.dll]
+:77D43B37 [user32.dll]
+:77D43D91 [user32.dll]
+:77D4438C [user32.dll]
+:00BA52EB [VetPractice.exe] Bopatientlookup.TBOPatientLookup.DoButtonClick (BOPatientLookup.pas, line 111)
+:00BA53FC [VetPractice.exe] Bopatientlookup.TBOPatientLookup.DoEditKeyDown (BOPatientLookup.pas, line 141)
+:0062B96C [VetPractice.exe] Cxedit.TcxCustomEdit.KeyDown (cxEdit.pas, line 4507)
+
+Registers:
+EAX = 0012F260  CS = 001B  EIP = 77E73887  Flags = 00000202
+EBX = 03ACA86C  SS = 0023  ESP = 0012F25C    EBP = 0012F2B0
+ECX = 00000000  DS = 0023  ESI = 0012F2E4    FS  = 003B
+EDX = 0053F6D5  ES = 0023  EDI = 00000000    GS  = 0000
+Code at CS:EIP
+5E C9 C2 10 00 6A 18 68 28 30 E8 77 E8 40 6A 00 
+Stack:
+05460D28 0EEDFADE 00000001 00000000 77E73887 
+0012F30C 034501E4 00000000 00000000 00000000 
+00000000 00000000 00000000 00000000 04AF2B28 
+0345010B 0000119B 04258300 04258BCC 0022A90B 
+
+
+
+---------------------------19:17:30 10/07/2003---------------------------
+Exception 'EDatabaseError' in module VetPractice.exe at 0013E6D5
+Field 'Desexed' not found
+
+Source file: UNKNOWN, Line UNKNOWN
+
+Call stack:
+:0053F6D5 [VetPractice.exe] Db.DatabaseError
+:0053F73E [VetPractice.exe] Db.DatabaseErrorFmt
+:0054D567 [VetPractice.exe] Db.TDataSet.FieldByName
+:0098C9E1 [VetPractice.exe] Animalobject.TAnimalObject.GetAnimalDesc (AnimalObject.pas, line 570)
+:00B76017 [VetPractice.exe] Frpatientslist.TFraPatientsList.UpdateHeader (FrPatientsList.pas, line 687)
+:00B74F34 [VetPractice.exe] Frpatientslist.TFraPatientsList.GrdPatientChangeNode (FrPatientsList.pas, line 452)
+:00569F22 [VetPractice.exe] Dxtl.TCustomdxTreeList.DoChangeNode (dxTL.pas, line 11497)
+:0055F768 [VetPractice.exe] Dxtl.TCustomdxTreeList.MouseDown (dxTL.pas, line 7301)
+:004612EB [VetPractice.exe] Controls.TControl.DoMouseDown
+:00461337 [VetPractice.exe] Controls.TControl.WMLButtonDown
+:004640B4 [VetPractice.exe] Controls.TWinControl.WndProc
+:0042D5C2 [VetPractice.exe] Classes.StdWndProc
+:77D43A68 [user32.dll]
+:77D43B37 [user32.dll]
+:77D43D91 [user32.dll]
+:77D4438C [user32.dll]
+:00BA52EB [VetPractice.exe] Bopatientlookup.TBOPatientLookup.DoButtonClick (BOPatientLookup.pas, line 111)
+:00BA53FC [VetPractice.exe] Bopatientlookup.TBOPatientLookup.DoEditKeyDown (BOPatientLookup.pas, line 141)
+:0062B96C [VetPractice.exe] Cxedit.TcxCustomEdit.KeyDown (cxEdit.pas, line 4507)
+
+Registers:
+EAX = 0012F020  CS = 001B  EIP = 77E73887  Flags = 00000202
+EBX = 03ACA86C  SS = 0023  ESP = 0012F01C    EBP = 0012F070
+ECX = 00000000  DS = 0023  ESI = 0012F0A4    FS  = 003B
+EDX = 0053F6D5  ES = 0023  EDI = 00000000    GS  = 0000
+Code at CS:EIP
+5E C9 C2 10 00 6A 18 68 28 30 E8 77 E8 40 6A 00 
+Stack:
+055C86DC 0EEDFADE 00000001 00000000 77E73887 
+0012F0CC 034501E4 00000000 00000000 00000000 
+00000000 00000000 00000000 00000000 04AF2FAC 
+0345010B 0000119B 055C9100 055C96D8 0022A90B 
+
+
+
+---------------------------19:17:36 10/07/2003---------------------------
+Exception 'EDatabaseError' in module VetPractice.exe at 0013E6D5
+Field 'Desexed' not found
+
+Source file: UNKNOWN, Line UNKNOWN
+
+Call stack:
+:0053F6D5 [VetPractice.exe] Db.DatabaseError
+:0053F73E [VetPractice.exe] Db.DatabaseErrorFmt
+:0054D567 [VetPractice.exe] Db.TDataSet.FieldByName
+:0098C9E1 [VetPractice.exe] Animalobject.TAnimalObject.GetAnimalDesc (AnimalObject.pas, line 570)
+:00B76017 [VetPractice.exe] Frpatientslist.TFraPatientsList.UpdateHeader (FrPatientsList.pas, line 687)
+:00B753CF [VetPractice.exe] Frpatientslist.TFraPatientsList.GrdAnimalsChangeNode (FrPatientsList.pas, line 549)
+:00569F22 [VetPractice.exe] Dxtl.TCustomdxTreeList.DoChangeNode (dxTL.pas, line 11497)
+:0055F768 [VetPractice.exe] Dxtl.TCustomdxTreeList.MouseDown (dxTL.pas, line 7301)
+:004612EB [VetPractice.exe] Controls.TControl.DoMouseDown
+:00461337 [VetPractice.exe] Controls.TControl.WMLButtonDown
+:004640B4 [VetPractice.exe] Controls.TWinControl.WndProc
+:0042D5C2 [VetPractice.exe] Classes.StdWndProc
+:77D43A68 [user32.dll]
+:77D43B37 [user32.dll]
+:77D43D91 [user32.dll]
+:77D43DF7 [user32.dll]
+:77D4D9AA [user32.dll]
+:77D4D9E5 [user32.dll]
+:77D60B36 [user32.dll]
+:00991231 [VetPractice.exe] Excmagic.TDSShowException (ExcMagic.pas, line 1512)
+:009912E8 [VetPractice.exe] Excmagic.TDSAppShowException (ExcMagic.pas, line 1533)
+:00797332 [VetPractice.exe] Appevnts.TMultiCaster.DoException
+:00481F03 [VetPractice.exe] Forms.TApplication.HandleException
+:0042D5C2 [VetPractice.exe] Classes.StdWndProc
+:77D43A68 [user32.dll]
+:77D43B37 [user32.dll]
+:77D43D91 [user32.dll]
+:77D4438C [user32.dll]
+:00BA52EB [VetPractice.exe] Bopatientlookup.TBOPatientLookup.DoButtonClick (BOPatientLookup.pas, line 111)
+:00BA53FC [VetPractice.exe] Bopatientlookup.TBOPatientLookup.DoEditKeyDown (BOPatientLookup.pas, line 141)
+:0062B96C [VetPractice.exe] Cxedit.TcxCustomEdit.KeyDown (cxEdit.pas, line 4507)
+
+Registers:
+EAX = 0012E00C  CS = 001B  EIP = 77E73887  Flags = 00000202
+EBX = 03ACA86C  SS = 0023  ESP = 0012E008    EBP = 0012E05C
+ECX = 00000000  DS = 0023  ESI = 0012E090    FS  = 003B
+EDX = 0053F6D5  ES = 0023  EDI = 00000000    GS  = 0000
+Code at CS:EIP
+5E C9 C2 10 00 6A 18 68 28 30 E8 77 E8 40 6A 00 
+Stack:
+04A25334 0EEDFADE 00000001 00000000 77E73887 
+0012E0B8 034501E4 00000000 00000000 00000000 
+00000000 00000000 00000000 00000000 04AF2AE8 
+0345010B 0000119B 04259900 04259E64 0022A90B 
+
+
+
+---------------------------19:17:39 10/07/2003---------------------------
+Exception 'EDatabaseError' in module VetPractice.exe at 0013E6D5
+Field 'Desexed' not found
+
+Source file: UNKNOWN, Line UNKNOWN
+
+Call stack:
+:0053F6D5 [VetPractice.exe] Db.DatabaseError
+:0053F73E [VetPractice.exe] Db.DatabaseErrorFmt
+:0054D567 [VetPractice.exe] Db.TDataSet.FieldByName
+:0098C9E1 [VetPractice.exe] Animalobject.TAnimalObject.GetAnimalDesc (AnimalObject.pas, line 570)
+:00B76017 [VetPractice.exe] Frpatientslist.TFraPatientsList.UpdateHeader (FrPatientsList.pas, line 687)
+:00B753CF [VetPractice.exe] Frpatientslist.TFraPatientsList.GrdAnimalsChangeNode (FrPatientsList.pas, line 549)
+:00569F22 [VetPractice.exe] Dxtl.TCustomdxTreeList.DoChangeNode (dxTL.pas, line 11497)
+:0055F768 [VetPractice.exe] Dxtl.TCustomdxTreeList.MouseDown (dxTL.pas, line 7301)
+:004612EB [VetPractice.exe] Controls.TControl.DoMouseDown
+:00461337 [VetPractice.exe] Controls.TControl.WMLButtonDown
+:004640B4 [VetPractice.exe] Controls.TWinControl.WndProc
+:0042D5C2 [VetPractice.exe] Classes.StdWndProc
+:77D43A68 [user32.dll]
+:77D43B37 [user32.dll]
+:77D43D91 [user32.dll]
+:77D43DF7 [user32.dll]
+:77D4D9AA [user32.dll]
+:77D4D9E5 [user32.dll]
+:77D60B36 [user32.dll]
+:00991231 [VetPractice.exe] Excmagic.TDSShowException (ExcMagic.pas, line 1512)
+:009912E8 [VetPractice.exe] Excmagic.TDSAppShowException (ExcMagic.pas, line 1533)
+:00797332 [VetPractice.exe] Appevnts.TMultiCaster.DoException
+:00481F03 [VetPractice.exe] Forms.TApplication.HandleException
+:0042D5C2 [VetPractice.exe] Classes.StdWndProc
+:77D43A68 [user32.dll]
+:77D43B37 [user32.dll]
+:77D43D91 [user32.dll]
+:77D43DF7 [user32.dll]
+:77D4D9AA [user32.dll]
+:77D4D9E5 [user32.dll]
+:77D60B36 [user32.dll]
+:00991231 [VetPractice.exe] Excmagic.TDSShowException (ExcMagic.pas, line 1512)
+:009912E8 [VetPractice.exe] Excmagic.TDSAppShowException (ExcMagic.pas, line 1533)
+:00797332 [VetPractice.exe] Appevnts.TMultiCaster.DoException
+:00481F03 [VetPractice.exe] Forms.TApplication.HandleException
+:0042D5C2 [VetPractice.exe] Classes.StdWndProc
+:77D43A68 [user32.dll]
+:77D43B37 [user32.dll]
+:77D43D91 [user32.dll]
+:77D4438C [user32.dll]
+:00BA52EB [VetPractice.exe] Bopatientlookup.TBOPatientLookup.DoButtonClick (BOPatientLookup.pas, line 111)
+:00BA53FC [VetPractice.exe] Bopatientlookup.TBOPatientLookup.DoEditKeyDown (BOPatientLookup.pas, line 141)
+:0062B96C [VetPractice.exe] Cxedit.TcxCustomEdit.KeyDown (cxEdit.pas, line 4507)
+
+Registers:
+EAX = 0012CFF8  CS = 001B  EIP = 77E73887  Flags = 00000202
+EBX = 03ACA86C  SS = 0023  ESP = 0012CFF4    EBP = 0012D048
+ECX = 00000000  DS = 0023  ESI = 0012D07C    FS  = 003B
+EDX = 0053F6D5  ES = 0023  EDI = 00000000    GS  = 0000
+Code at CS:EIP
+5E C9 C2 10 00 6A 18 68 28 30 E8 77 E8 40 6A 00 
+Stack:
+05460D28 0EEDFADE 00000001 00000000 77E73887 
+0012D0A4 034501E4 00000000 00000000 00000000 
+00000000 00000000 00000000 00000000 04AF2FAC 
+0345010B 0000119B 055CA500 055CAB70 0022A90B 
+
+
+
+---------------------------19:23:50 10/07/2003---------------------------
+Exception 'EPrintError' in module VetPractice.exe at 00402FA9
+Cannot generate report.
+
+[ASTA SERVER ERROR]SQL ERROR CODE:-901
+
+SQL ERROR MESSAGE:
+Unsuccessful execution caused by system error that does not preclude successful execution of subsequent statements
+
+
+Source file: UNKNOWN, Line UNKNOWN
+
+Call stack:
+:00803FA9 [VetPractice.exe] Ppreport.TppReport.RequestPage
+:0081B45F [VetPractice.exe] Ppdevice.TppPublisher.DoOnPageRequest
+:00817D1F [VetPractice.exe] Ppprod.TppProducer.PublishReport
+:00803E0A [VetPractice.exe] Ppreport.TppReport.PrintToDevices
+:00818713 [VetPractice.exe] Ppprod.TppProducer.PreviewFormActivateEvent
+:004640B4 [VetPractice.exe] Controls.TWinControl.WndProc
+:00463D2F [VetPractice.exe] Controls.TWinControl.MainWndProc
+:0042D5C2 [VetPractice.exe] Classes.StdWndProc
+:77D43A68 [user32.dll]
+:77D43B37 [user32.dll]
+:77D4450D [user32.dll]
+:77D4453D [user32.dll]
+:77FB4DA6 [ntdll.dll]
+:77D45F69 [user32.dll]
+:0047E856 [VetPractice.exe] Forms.TCustomForm.ShowModal
+:00817E69 [VetPractice.exe] Ppprod.TppProducer.PrintToScreen
+:008033A6 [VetPractice.exe] Ppreport.TppReport.Print
+:00D94225 [VetPractice.exe] Fmreminders.TFrmReminders.MnuPrintItemClick (FmReminders.pas, line 418)
+:00472B00 [VetPractice.exe] Menus.TMenuItem.Click
+:004749AC [VetPractice.exe] Menus.TPopupList.MainWndProc
+:0042D5C2 [VetPractice.exe] Classes.StdWndProc
+:77D43A68 [user32.dll]
+:77D43B37 [user32.dll]
+:77D43D91 [user32.dll]
+:77D4438C [user32.dll]
+:00DC6F4D [VetPractice.exe] initialization (VetPractice.dpr, line 204)
+:77E814C7 [kernel32.dll]
+
+Registers:
+EAX = 0012F1B4  CS = 001B  EIP = 77E73887  Flags = 00000202
+EBX = 04DB4B04  SS = 0023  ESP = 0012F1B0    EBP = 0012F204
+ECX = 00000000  DS = 0023  ESI = 0012F238    FS  = 003B
+EDX = 00803FA9  ES = 0023  EDI = 0012F874    GS  = 0000
+Code at CS:EIP
+5E C9 C2 10 00 6A 18 68 28 30 E8 77 E8 40 6A 00 
+Stack:
+00000000 0EEDFADE 00000001 00000000 77E73887 
+0012F8B0 034501E4 00000000 00000000 00000000 
+00000000 00000000 00000000 00000000 77E814C7 
+03450105 0488C10C 0464FE0B 04DB7FF0 0002040B 
+
+
+
+---------------------------19:24:25 10/07/2003---------------------------
+Exception 'EPrintError' in module VetPractice.exe at 00402FA9
+Cannot generate report.
+
+[ASTA SERVER ERROR]SQL ERROR CODE:-901
+
+SQL ERROR MESSAGE:
+Unsuccessful execution caused by system error that does not preclude successful execution of subsequent statements
+
+
+Source file: UNKNOWN, Line UNKNOWN
+
+Call stack:
+:00803FA9 [VetPractice.exe] Ppreport.TppReport.RequestPage
+:0081B45F [VetPractice.exe] Ppdevice.TppPublisher.DoOnPageRequest
+:0081BE83 [VetPractice.exe] Ppdevice.TppDevice.MakePageRequest
+:00808125 [VetPractice.exe] Ppviewr.TppScreenDevice.LastPage
+:00461601 [VetPractice.exe] Controls.TControl.DoMouseUp
+:00460E4B [VetPractice.exe] Controls.TControl.Perform
+:00463F49 [VetPractice.exe] Controls.TWinControl.IsControlMouseMsg
+:0042D5C2 [VetPractice.exe] Classes.StdWndProc
+:77D43A68 [user32.dll]
+:77D43B37 [user32.dll]
+:77D43D91 [user32.dll]
+:77D43DF7 [user32.dll]
+:77D4D9AA [user32.dll]
+:77D4D9E5 [user32.dll]
+:77D60B36 [user32.dll]
+:00991231 [VetPractice.exe] Excmagic.TDSShowException (ExcMagic.pas, line 1512)
+:009912E8 [VetPractice.exe] Excmagic.TDSAppShowException (ExcMagic.pas, line 1533)
+:00797332 [VetPractice.exe] Appevnts.TMultiCaster.DoException
+:00481F03 [VetPractice.exe] Forms.TApplication.HandleException
+:0042D5C2 [VetPractice.exe] Classes.StdWndProc
+:77D43A68 [user32.dll]
+:77D43B37 [user32.dll]
+:77D4450D [user32.dll]
+:77D4453D [user32.dll]
+:77FB4DA6 [ntdll.dll]
+:77D45F69 [user32.dll]
+:0047E856 [VetPractice.exe] Forms.TCustomForm.ShowModal
+:00817E69 [VetPractice.exe] Ppprod.TppProducer.PrintToScreen
+:008033A6 [VetPractice.exe] Ppreport.TppReport.Print
+:00D94225 [VetPractice.exe] Fmreminders.TFrmReminders.MnuPrintItemClick (FmReminders.pas, line 418)
+:00472B00 [VetPractice.exe] Menus.TMenuItem.Click
+:004749AC [VetPractice.exe] Menus.TPopupList.MainWndProc
+:0042D5C2 [VetPractice.exe] Classes.StdWndProc
+:77D43A68 [user32.dll]
+:77D43B37 [user32.dll]
+:77D43D91 [user32.dll]
+:77D4438C [user32.dll]
+:00DC6F4D [VetPractice.exe] initialization (VetPractice.dpr, line 204)
+:77E814C7 [kernel32.dll]
+
+Registers:
+EAX = 0012DDA8  CS = 001B  EIP = 77E73887  Flags = 00000202
+EBX = 0464014C  SS = 0023  ESP = 0012DDA4    EBP = 0012DDF8
+ECX = 00000000  DS = 0023  ESI = 0012DE2C    FS  = 003B
+EDX = 00803FA9  ES = 0023  EDI = 0012E468    GS  = 0000
+Code at CS:EIP
+5E C9 C2 10 00 6A 18 68 28 30 E8 77 E8 40 6A 00 
+Stack:
+00000000 0EEDFADE 00000001 00000000 77E73887 
+0012E4A4 034501E4 00000000 00000000 00000000 
+00000000 00000000 00000000 00000000 77E814C7 
+03450105 04DB6160 04DB750B 041CFB18 0002040B 
+
+
+
+---------------------------20:47:19 15/07/2003---------------------------
+Exception 'Exception' in module VetPractice.exe at 005657E4
+Report not found
+
+Source file: AstaEURpt.pas, Line 345
+
+Call stack:
+:009667E4 [VetPractice.exe] Astaeurpt.TAstaEndUserSolution.ReportPreview (AstaEURpt.pas, line 345)
+:00C29632 [VetPractice.exe] Fmstock.TFrmStock.ActStockPrintExecute (FmStock.pas, line 425)
+:0042C92A [VetPractice.exe] Classes.TBasicAction.Execute
+:0052D381 [VetPractice.exe] Dxbar.TdxBarItemControl.ControlUnclick (dxBar.pas, line 22395)
+:0052F9D8 [VetPractice.exe] Dxbar.TdxBarButtonControl.ControlUnclick (dxBar.pas, line 23592)
+
+Registers:
+EAX = 0012FA80  CS = 001B  EIP = 77E73887  Flags = 00000202
+EBX = 04014B08  SS = 0023  ESP = 0012FA7C    EBP = 0012FAD0
+ECX = 00000000  DS = 0023  ESI = 0012FB04    FS  = 003B
+EDX = 009667E4  ES = 0023  EDI = 00000003    GS  = 0000
+Code at CS:EIP
+5E C9 C2 10 00 6A 18 68 28 30 E8 77 E8 40 6A 00 
+Stack:
+03F982FC 0EEDFADE 00000001 00000000 77E73887 
+0012FB58 033F7104 00000000 00000000 00000000 
+00000000 00000000 00000000 00000000 046DE3C4 
+033F710B 00005C28 03FF9600 04905F7C 0012E90B 
+
+
+
+---------------------------20:48:21 15/07/2003---------------------------
+Exception 'EClassNotFound' in module VetPractice.exe at 0001EB1A
+Class TdxPickEdit not found
+
+Source file: UNKNOWN, Line UNKNOWN
+
+Call stack:
+:0041FB1A [VetPractice.exe] Classes.ClassNotFound
+:004272BE [VetPractice.exe] Classes.TReader.FindComponentClass
+:00425925 [VetPractice.exe] Classes.TReader.ReadComponent
+:00425B7A [VetPractice.exe] Classes.TReader.ReadDataInner
+:00425AE8 [VetPractice.exe] Classes.TReader.ReadData
+:0042C2AA [VetPractice.exe] Classes.TComponent.ReadState
+:00425999 [VetPractice.exe] Classes.TReader.ReadComponent
+:00425B7A [VetPractice.exe] Classes.TReader.ReadDataInner
+:00425AE8 [VetPractice.exe] Classes.TReader.ReadData
+:0042C2AA [VetPractice.exe] Classes.TComponent.ReadState
+:00425999 [VetPractice.exe] Classes.TReader.ReadComponent
+:00425B7A [VetPractice.exe] Classes.TReader.ReadDataInner
+:00425AB9 [VetPractice.exe] Classes.TReader.ReadData
+:0042C2AA [VetPractice.exe] Classes.TComponent.ReadState
+:0047AB1E [VetPractice.exe] Forms.TCustomForm.ReadState
+:004268A8 [VetPractice.exe] Classes.TReader.ReadRootComponent
+:00423F3F [VetPractice.exe] Classes.TStream.ReadComponent
+:0042016C [VetPractice.exe] Classes.InternalReadComponentRes
+:004202F6 [VetPractice.exe] InitComponent
+:00420387 [VetPractice.exe] Classes.InitInheritedComponent
+:0047A4C2 [VetPractice.exe] Forms.TCustomForm.Create
+:00BE31F6 [VetPractice.exe] Fmbase.TFrmBase.Create (FmBase.pas, line 191)
+:00BE22A0 [VetPractice.exe] Formfactory.TFormFactory.CreateForm (FormFactory.pas, line 223)
+:00BE6093 [VetPractice.exe] Fmmain.TFrmMain.LoadItem (FmMain.pas, line 610)
+:00BE646E [VetPractice.exe] Fmmain.TFrmMain.ActCashbookExecute (FmMain.pas, line 706)
+:004615F1 [VetPractice.exe] Controls.TControl.DoMouseUp
+:004640A4 [VetPractice.exe] Controls.TWinControl.WndProc
+:0042D5B2 [VetPractice.exe] Classes.StdWndProc
+:77D43A68 [user32.dll]
+:77D43B37 [user32.dll]
+:77D43D91 [user32.dll]
+:77D4438C [user32.dll]
+:00DB70D5 [VetPractice.exe] initialization (VetPractice.dpr, line 204)
+:77E814C7 [kernel32.dll]
+
+Registers:
+EAX = 0012F488  CS = 001B  EIP = 77E73887  Flags = 00000202
+EBX = 04ED5658  SS = 0023  ESP = 0012F484    EBP = 0012F4D8
+ECX = 00000000  DS = 0023  ESI = 0012F50C    FS  = 003B
+EDX = 0041FB1A  ES = 0023  EDI = 00000000    GS  = 0000
+Code at CS:EIP
+5E C9 C2 10 00 6A 18 68 28 30 E8 77 E8 40 6A 00 
+Stack:
+04ED5658 0EEDFADE 00000001 00000000 77E73887 
+0012F528 033F7104 00000000 00000000 00000000 
+00000000 00000000 00000000 00000000 77E814C7 
+033F7105 04ED5BD8 04ED470B 04ED5ACC 0002040B 
+
+
+
+---------------------------21:03:18 15/07/2003---------------------------
+Exception 'Exception' in module VetPractice.exe at 005664A8
+Report not found
+
+Source file: AstaEURpt.pas, Line 573
+
+Call stack:
+:009674A8 [VetPractice.exe] Astaeurpt.TAstaEndUserSolution.ReportPrintFax (AstaEURpt.pas, line 573)
+:00969EBE [VetPractice.exe] Animalobject.TAnimalObject.SendReferral (AnimalObject.pas, line 479)
+:00D8DCBF [VetPractice.exe] Fmsendreferrals.TFrmSendReferrals.SendReferrals (FmSendReferrals.pas, line 140)
+:00D8DA9E [VetPractice.exe] Fmsendreferrals.TFrmSendReferrals.RzBitBtn1Click (FmSendReferrals.pas, line 119)
+:004640A4 [VetPractice.exe] Controls.TWinControl.WndProc
+:004641DC [VetPractice.exe] Controls.DoControlMsg
+:004640A4 [VetPractice.exe] Controls.TWinControl.WndProc
+:0042D5B2 [VetPractice.exe] Classes.StdWndProc
+:77D43A68 [user32.dll]
+:77D43B37 [user32.dll]
+:77D4450D [user32.dll]
+:77D4453D [user32.dll]
+:77FB4DA6 [ntdll.dll]
+:77D454CC [user32.dll]
+:71981492 [comctl32.dll]
+:77D43A68 [user32.dll]
+:77D43B37 [user32.dll]
+:77D45B40 [user32.dll]
+:77D45F87 [user32.dll]
+:00464188 [VetPractice.exe] Controls.TWinControl.DefaultHandler
+:004640A4 [VetPractice.exe] Controls.TWinControl.WndProc
+:0042D5B2 [VetPractice.exe] Classes.StdWndProc
+:77D43A68 [user32.dll]
+:77D43B37 [user32.dll]
+:77D43D91 [user32.dll]
+:77D4438C [user32.dll]
+:00DB70D5 [VetPractice.exe] initialization (VetPractice.dpr, line 204)
+:77E814C7 [kernel32.dll]
+
+Registers:
+EAX = 0012F394  CS = 001B  EIP = 77E73887  Flags = 00000202
+EBX = 0000005E  SS = 0023  ESP = 0012F390    EBP = 0012F3E4
+ECX = 00000000  DS = 0023  ESI = 0012F418    FS  = 003B
+EDX = 009674A8  ES = 0023  EDI = 0012F75C    GS  = 0000
+Code at CS:EIP
+5E C9 C2 10 00 6A 18 68 28 30 E8 77 E8 40 6A 00 
+Stack:
+00D8DF38 0EEDFADE 00000001 00000000 77E73887 
+0012F468 033F7104 00000000 00000000 00000000 
+00000000 00000000 00000000 00000000 77E814C7 
+033F7105 0564E1D4 0564DD0B 04E80540 0002040B 
+
+
+
+---------------------------15:44:30 18/07/2003---------------------------
+Exception 'EDatabaseError' in module VetPractice.exe at 0032D64A
+[ASTA SERVER ERROR]SQL ERROR CODE:-104
+
+SQL ERROR MESSAGE:
+Invalid token
+
+
+Source file: AstaClientDataset.pas, Line 926
+
+Call stack:
+:0072E64A [VetPractice.exe] CheckException (AstaClientDataset.pas, line 926)
+:0072E882 [VetPractice.exe] Astaclientdataset.TAstaBaseClientDataSet.DoDirectListBuild (AstaClientDataset.pas, line 962)
+:0072E93F [VetPractice.exe] Astaclientdataset.TAstaBaseClientDataSet.SubmitRequestToServer (AstaClientDataset.pas, line 1019)
+:0072ECFC [VetPractice.exe] Astaclientdataset.TAstaBaseClientDataSet.InternalOpen (AstaClientDataset.pas, line 1099)
+:0054C5FB [VetPractice.exe] Db.TDataSet.DoInternalOpen
+:008C39A3 [VetPractice.exe] Daasta.OpenDataset (daAsta.pas, line 799)
+:008C3514 [VetPractice.exe] Daasta.TdaAstaQueryDataView.Loaded (daAsta.pas, line 665)
+:007E4180 [VetPractice.exe] Pptmplat.TppTemplate.LoadFromStream
+:007E3F8F [VetPractice.exe] Pptmplat.TppTemplate.LoadFromSource
+:007E3DA3 [VetPractice.exe] Pptmplat.TppTemplate.LoadFromDatabase
+
+Registers:
+EAX = 0012F6B4  CS = 001B  EIP = 77E73887  Flags = 00000202
+EBX = 04A86EA8  SS = 0023  ESP = 0012F6B0    EBP = 0012F704
+ECX = 00000000  DS = 0023  ESI = 0012F738    FS  = 003B
+EDX = 0072E64A  ES = 0023  EDI = 0400A018    GS  = 0000
+Code at CS:EIP
+5E C9 C2 10 00 6A 18 68 28 30 E8 77 E8 40 6A 00 
+Stack:
+04A86EA8 0EEDFADE 00000001 00000000 77E73887 
+0012F738 033F7104 00000000 00000000 00000000 
+00000000 00000000 00000000 00000000 007E3DA3 
+033F7105 04AB4BA0 04AB450B 04A56F90 003E2D0B 
+
+
