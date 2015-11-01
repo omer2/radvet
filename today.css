@@ -1,0 +1,68 @@
+BODY {
+	color: Black;
+	background-color: White;
+	font-family: Tahoma, sans-serif;
+	font-size: 75%
+}
+
+line {
+	background-color: #B0C4DE;
+}
+
+a:link { 
+	text-decoration: none; 
+	color: navy;
+} 
+
+a:active	{ 
+	text-decoration: none; 
+	color: navy;
+}
+
+a:visited { 
+	text-decoration: none; 
+	color: navy;
+}
+
+
+p.header {
+	font-family: arial, sans-serif;
+	font-weight: bold;
+	text-align: left; 
+	font-size: 110%;
+}
+
+table { 
+	margin-bottom: 1em 
+}
+		
+th	{ 
+	font-family: arial, sans-serif;
+	text-align: left; 
+	vertical-align: middle; 
+	background-color: #B0C4DE;
+	font-size: 150%
+}
+		
+th.center { 
+	text-align: center 
+}
+		
+tr	{
+	font-family: Tahoma, sans-serif;
+	vertical-align: top;
+}
+
+td	{
+	font-family: Tahoma, sans-serif;
+	vertical-align: top;
+}
+
+header {
+	font-family: Arial, sans-serif;	
+	font-size: 100%;
+}
+
+
+
+
