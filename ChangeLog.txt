@@ -1,0 +1,154 @@
+Harmony Change Log
+------------------
+
+Version 1.5 Build 580
+=====================
+
+General
+-------
+- Change application to true client/server model for greatly enhanced stability and performance
+- Remembers last logged on users username
+- Dockable tree view on main screen to easily access setup lists
+- Remembers screen layout
+
+Appointments
+------------
+- Boarding section in appointments
+- Default time length for consultation type
+- Appointment highlight screen properly ordered
+- Can set appointment screen cell height
+- Double booked appointments can be selected properly
+- Small layout changes to add to user efficency
+- When change to day other than current, defaults to 8 am
+
+Charts
+------
+- Go to client/patient function goes to main screen rather than popup
+- Remembers expanded nodes after auto refresh
+- Removes departed clients properly from chart
+
+Clients/Patients
+----------------
+- Can transfer non invoiced visit to another client
+- Print buttons on client and patient tab to easily access reports
+- Can attach any documents, ie Word, Excel, to a visit record
+- More client account info displayed on client screen
+- Clients can be assigned a credit limit
+- Custom fields can be lookup/combos
+- Reorder of fields in client/patient screen to more logical format
+- Client tab shows sales summary for last year
+- Warning on adding visit for inactive patient
+- Multiple popup screens to confirm update values and reminders consolidated to one screen
+
+Financial
+---------
+- When invoicing all clients via unfinalised invoices screen, can make the invoice date the same as the visit date
+- Changing adjustment retains type properly
+- Client ageing works properly
+- Can perform a discount easily in visit
+- Fixed rounding problems in invoices causing visit & invoices to be 5-10 different
+- On financial screen can tick invoices to pay before doing a payment
+- Unfinalised invoices screen shows amounts rounded properly
+- Setup option whether to print receipt by default or not
+- When invoicing all clients in statements doesn't popup confirming values
+- Cash sale client doesn't print in statements
+- Adjustments can have a location
+
+Stock
+-----
+- Global price rise no longer results in negative markup values
+- Can store wastage amount directly into system
+- Dispense fees can be predefined and displayed in drop down combo
+- Stock order screen displays on hand levels of item being added
+- When adding stock order, will prompt to confirm if a PO number is being added twice
+- Stock take screen can be exited and returned to and remembers previously entered values
+- Items can have an item type that hides unneed info for the item, ie Lab Test, Procedures
+- Inventory search groups by item types and categories
+- Price list screen can enter a quantity and displays rounded values
+- Price levels can have a description assigned to them
+- Can change cost prices when arriving a stock order
+- Fill order items option in stock order works properly
+
+Visits
+------
+- Edit button removed from client/patient/visit
+- Slight rearrangment to make more logical
+- Multi-patient visits will also have seperate notes
+- Notes in left hand visit list will default notes not first line of visit notes if none given
+- When a litter is vaccinated, can enter the number of puppies and print out multiple documents
+- When adding an item with no price, a warning is displayed
+
+Other
+-----
+- Audit log with option to prompt for user reason on popping cash drawer
+- Document edit can be used externally
+- Merge client/patient can stay up for multiple merging
+
+Reminders
+---------
+- Periodical reminders work better
+- Can select location from drop down combo in reminder generation
+
+
+Wizards
+-------
+- New Client Wizard
+- End of month Wizard
+- New Stock Wizard
+
+
+
+Version 1.5 Build 595
+=====================
+
+- Update fields on invoice work properly with desexing and euthanasia
+- Out of Memory errors fixed (need to check with testers)
+more...
+
+Version 1.5 Build 596
+=====================
+
+- Double up of custom fields
+- Integration of EurekaLog exception handling
+- Dont prompt for referring vets when invoicing all unfinalised
+
+Version 1.5 Build 597
+=====================
+
+- Fix AV's in appointment screen
+
+Version 1.51 Build 60x
+======================
+
+- Client search by selecting tab of first letter
+- Adding a new animal when creating appointment would not save some custom fields properly
+* Banking payment locations - unable to reproduce
+* Out of memory for long reminder runs after about 270 reminders
+- When arriving a client if it is from a different location prompt to change 
+- Cant change current location once logged in
+- Cant client on Add/Edit/Delete when searching for animal
+- Fixed Dataset closed errors when searching for stock item
+- Some statements dont print header, new report template 'Statement A5.rtm'
+- Can change the visit consult/quote of an invoiced visit
+- Lookup/List type custom fields dont save in client/patient tabs
+- Required fields in wastage
+- Fix or remove toolbar print buttons that dont work
+- Text Templates should work in visit notes popup editor
+- Add a function on help menu called 'Send log to support'
+- Fix error when attaching documents to visits
+- Screen to select all clients who haven't been in for x months and make them inactive
+- Option to hide client ageing in statement
+- Option to hide letterheads in statements/invoices/receipts
+- Can print documents from the hospital chart
+- In stock order report total is not rounded properly
+- Label name prints on Invoices/Receipts for stock items if one is supplied
+- When adding items in visit remember the last animal
+- Can drag'n'drop appointment headers to change the order of rooms, users
+- Backup database option from File menu
+- End of month wizard reports dont give errors anymore
+- Stock packs work properly
+- Image Editor works properly
+- Scanning images works properly
+
+
+ 
