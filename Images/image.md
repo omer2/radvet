@@ -1,1 +1,1 @@
-There will be 2 image files here. Dont know yet how to put images here.
+There will be image files here. Dont know yet how to put images here.
