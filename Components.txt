@@ -1,0 +1,49 @@
+RADVet Components
+-----------------
+
+DevExpress 
+RBuilder
+ExtraDevices
+TRichView
+AddictSpell
+AsyncPro - OS
+ImageEn
+kbMemtable
+TPlanner
+UILSecurity
+ComPort - OS
+KWizard - OS
+PSC Cal - OS
+EHS - OS
+JCL - OS
+Abbrevia
+
+
+TeeChart - required ?
+
+Harmony Framework
+  - VetComponent.dpk
+  - VetBusiness.dpk
+
+
+
+
+
+
+Common
+ThemeManager
+Library
+GDI
+DataController
+Export
+MemData
+Editors
+PageControl
+Grid5
+TreeList
+DBTree
+VericalGrid
+NavBar
+Bars
+Printing
+Grid3
