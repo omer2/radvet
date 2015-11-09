@@ -24,7 +24,7 @@ type
   public
     { Public declarations }
     function FieldByName(const FieldName: string): TBODataField;
-    property Key: Integer read FKey write SetKey;
+    property Key: Integer read FKey write SetKey; 
   published
     { Published declarations }
     property DataObject: TBOData read FDataObject write SetDataObject;
